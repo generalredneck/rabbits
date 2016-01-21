@@ -1,0 +1,79 @@
+uuid: d2f80083-9db9-4211-9a07-7abf7702902f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.rabbit.body
+    - field.field.node.rabbit.field_dam
+    - field.field.node.rabbit.field_gender
+    - field.field.node.rabbit.field_sire
+    - node.type.rabbit
+  module:
+    - text
+id: node.rabbit.default
+targetEntityType: node
+bundle: rabbit
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+  created:
+    type: datetime_timestamp
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+  field_dam:
+    weight: 29
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+  field_gender:
+    weight: 27
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_sire:
+    weight: 28
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 15
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 16
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

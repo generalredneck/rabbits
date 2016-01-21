@@ -1,0 +1,11 @@
+uuid: 107a6dc0-bd8d-4227-ad00-b0f6cdd5f549
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node_publish_action
+label: 'Publish content'
+type: node
+plugin: node_publish_action
+configuration: {  }

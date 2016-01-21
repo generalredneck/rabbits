@@ -1,0 +1,22 @@
+uuid: c7a462a9-1aa6-46fc-b02c-44dab8a33145
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.rabbit
+  module:
+    - text
+id: node.rabbit.body
+field_name: body
+entity_type: node
+bundle: rabbit
+label: Notes
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

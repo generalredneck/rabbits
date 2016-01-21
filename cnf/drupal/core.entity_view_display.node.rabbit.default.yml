@@ -1,0 +1,48 @@
+uuid: 3a8d0f0e-2059-4605-a936-54d4d2c8c1cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.rabbit.body
+    - field.field.node.rabbit.field_dam
+    - field.field.node.rabbit.field_gender
+    - field.field.node.rabbit.field_sire
+    - node.type.rabbit
+  module:
+    - options
+    - text
+    - user
+id: node.rabbit.default
+targetEntityType: node
+bundle: rabbit
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  field_dam:
+    weight: 104
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_gender:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+  field_sire:
+    weight: 103
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  links:
+    weight: 100
+hidden: {  }
