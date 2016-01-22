@@ -1,0 +1,9 @@
+name: Rabbits Breed Migration
+type: module
+description: Migration of a list of breeds from CSV
+core: 8.x
+package: Rabbits Migrate
+dependencies:
+  - migrate_source_csv
+  - migrate_plus
+  - migrate_tools

@@ -1,9 +1,15 @@
-name: Default D8
-description: Top module for drupalproject d8 project
-package: Default D8
+name: Rabbits
+description: Top module for the Rabbits site
+package: Rabbits
 type: module
 core: 8.x
 
 dependencies:
   - toolbar
   - features
+  - taxonomy
+  - views
+  - datetime
+  - image
+  - options
+  - ckeditor

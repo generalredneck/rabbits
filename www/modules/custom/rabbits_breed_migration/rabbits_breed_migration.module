@@ -1,0 +1,5 @@
+<?php
+
+function rabbits_breed_migration_parse_fur_color($string) {
+  return $string;
+}
