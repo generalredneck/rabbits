@@ -23,4 +23,8 @@ content:
     third_party_settings: {  }
   links:
     weight: 100
-hidden: {  }
+hidden:
+  field_color: true
+  field_dam: true
+  field_gender: true
+  field_sire: true

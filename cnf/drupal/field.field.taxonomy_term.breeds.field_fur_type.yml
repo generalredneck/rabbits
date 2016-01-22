@@ -1,0 +1,27 @@
+uuid: ad4189d9-adb7-4437-9204-4a09b450c814
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_fur_type
+    - taxonomy.vocabulary.breeds
+    - taxonomy.vocabulary.fur_type
+id: taxonomy_term.breeds.field_fur_type
+field_name: field_fur_type
+entity_type: taxonomy_term
+bundle: breeds
+label: 'Fur Type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      fur_type: fur_type
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

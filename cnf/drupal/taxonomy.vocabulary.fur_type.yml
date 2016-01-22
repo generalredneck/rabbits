@@ -1,0 +1,9 @@
+uuid: 0bf0fe0d-64b0-4ecc-a900-a2938f3a2e43
+langcode: en
+status: true
+dependencies: {  }
+name: 'Fur Type'
+vid: fur_type
+description: ''
+hierarchy: 0
+weight: 0

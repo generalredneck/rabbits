@@ -1,0 +1,19 @@
+uuid: cbafa4bc-e3be-4ae7-8807-7c9a8f1cdede
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_size
+    - taxonomy.vocabulary.breeds
+id: taxonomy_term.breeds.field_size
+field_name: field_size
+entity_type: taxonomy_term
+bundle: breeds
+label: Size
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

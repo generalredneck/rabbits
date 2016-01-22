@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.rabbit.body
+    - field.field.node.rabbit.field_color
     - field.field.node.rabbit.field_dam
     - field.field.node.rabbit.field_gender
     - field.field.node.rabbit.field_sire
@@ -28,6 +29,13 @@ content:
     weight: 10
     settings: {  }
     third_party_settings: {  }
+  field_color:
+    weight: 30
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
   field_dam:
     weight: 29
     settings:

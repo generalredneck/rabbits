@@ -1,0 +1,19 @@
+uuid: 283540d6-8b58-41a5-8a01-1e7fcb728202
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_color
+    - node.type.rabbit
+id: node.rabbit.field_color
+field_name: field_color
+entity_type: node
+bundle: rabbit
+label: Color
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

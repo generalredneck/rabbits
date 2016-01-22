@@ -1,0 +1,9 @@
+uuid: 69256cde-bcdf-4cd6-a52c-4491ebda2c2e
+langcode: en
+status: true
+dependencies: {  }
+name: 'Ear Type'
+vid: ear_type
+description: ''
+hierarchy: 0
+weight: 0
