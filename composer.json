@@ -39,7 +39,10 @@
         "drupal/omega": "8.5.*",
         "drupal/panels": "8.3.*",
         "drupal/token": "8.1.*@dev",
-        "drush/drush": "8.*"
+        "drush/drush": "8.*",
+        "drupal/migrate_plus": "8.*",
+        "drupal/migrate_tools": "8.*",
+        "drupal/migrate_source_csv": "8.*@dev"
     },
     "require-dev": {
         "drupal/coder": "~8.2",
