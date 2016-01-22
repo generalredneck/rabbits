@@ -1,0 +1,14 @@
+name: 'Rabbits Taxonomy'
+type: module
+core: 8.x
+dependencies:
+  - image
+  - text
+features:
+  required:
+    - taxonomy.vocabulary.breeds
+    - taxonomy.vocabulary.ear_type
+    - taxonomy.vocabulary.eye_color
+    - taxonomy.vocabulary.fur_colors
+    - taxonomy.vocabulary.fur_type
+    - taxonomy.vocabulary.marking_style

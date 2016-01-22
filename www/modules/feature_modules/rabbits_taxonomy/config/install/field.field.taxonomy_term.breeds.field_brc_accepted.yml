@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_brc_accepted
+    - taxonomy.vocabulary.breeds
+id: taxonomy_term.breeds.field_brc_accepted
+field_name: field_brc_accepted
+entity_type: taxonomy_term
+bundle: breeds
+label: 'BRC Accepted'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

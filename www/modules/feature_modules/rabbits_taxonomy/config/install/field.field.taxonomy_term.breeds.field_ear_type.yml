@@ -1,0 +1,26 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_ear_type
+    - taxonomy.vocabulary.breeds
+    - taxonomy.vocabulary.ear_type
+id: taxonomy_term.breeds.field_ear_type
+field_name: field_ear_type
+entity_type: taxonomy_term
+bundle: breeds
+label: 'Ear Type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ear_type: ear_type
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

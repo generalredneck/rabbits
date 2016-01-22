@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'Marking Style'
+vid: marking_style
+description: ''
+hierarchy: 0
+weight: 0
