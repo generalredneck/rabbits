@@ -26,11 +26,11 @@ content:
   description:
     label: hidden
     type: text_default
-    weight: 0
+    weight: 1
     settings: {  }
     third_party_settings: {  }
   field_arba_accepted:
-    weight: 6
+    weight: 4
     label: above
     settings:
       format: default
@@ -39,7 +39,7 @@ content:
     third_party_settings: {  }
     type: boolean
   field_brc_accepted:
-    weight: 7
+    weight: 5
     label: above
     settings:
       format: default
@@ -48,7 +48,7 @@ content:
     third_party_settings: {  }
     type: boolean
   field_breed_image:
-    weight: 8
+    weight: 0
     label: above
     settings:
       image_style: ''
@@ -56,42 +56,42 @@ content:
     third_party_settings: {  }
     type: image
   field_ear_type:
-    weight: 4
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-    type: entity_reference_label
-  field_eye_color:
     weight: 9
     label: above
     settings:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
-  field_fur_color:
-    weight: 5
-    label: above
-    settings:
-      link: true
-    third_party_settings: {  }
-    type: entity_reference_label
-  field_fur_markings:
+  field_eye_color:
     weight: 10
     label: above
     settings:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
+  field_fur_color:
+    weight: 7
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_fur_markings:
+    weight: 8
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
   field_fur_type:
-    weight: 2
+    weight: 6
     label: above
     settings:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
   field_origin:
-    weight: 1
+    weight: 2
     label: above
     settings:
       link_to_entity: false
