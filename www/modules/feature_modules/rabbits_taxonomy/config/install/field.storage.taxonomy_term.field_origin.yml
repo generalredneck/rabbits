@@ -1,9 +1,10 @@
-uuid: c9d1e66e-4b5a-4077-a500-e95b3e49cbcb
 langcode: en
 status: true
 dependencies:
   module:
     - taxonomy
+_core:
+  default_config_hash: LNLOAiI_viwbgG-HxSnHqrNW06U4ng50XUznStIuoi8
 id: taxonomy_term.field_origin
 field_name: field_origin
 entity_type: taxonomy_term

@@ -1,9 +1,10 @@
-uuid: c1759a78-918e-4ee6-8300-f793bc01f4ea
 langcode: en
 status: true
 dependencies:
   module:
     - taxonomy
+_core:
+  default_config_hash: ErbjbD_VI_z8uZYf4MN-wIpczWsUpyaYM8e6d0oL7Go
 id: taxonomy_term.field_size
 field_name: field_size
 entity_type: taxonomy_term

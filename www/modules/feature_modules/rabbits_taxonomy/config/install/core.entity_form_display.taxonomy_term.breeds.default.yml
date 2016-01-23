@@ -8,6 +8,7 @@ dependencies:
     - field.field.taxonomy_term.breeds.field_ear_type
     - field.field.taxonomy_term.breeds.field_eye_color
     - field.field.taxonomy_term.breeds.field_fur_color
+    - field.field.taxonomy_term.breeds.field_fur_markings
     - field.field.taxonomy_term.breeds.field_fur_type
     - field.field.taxonomy_term.breeds.field_origin
     - field.field.taxonomy_term.breeds.field_size
@@ -15,6 +16,8 @@ dependencies:
   module:
     - image
     - text
+_core:
+  default_config_hash: K0kNZl9kAiXa4KI290LZqrk4kA55P8wzNK6BjQEp_Pk
 id: taxonomy_term.breeds.default
 targetEntityType: taxonomy_term
 bundle: breeds
@@ -64,6 +67,14 @@ content:
     type: entity_reference_autocomplete
   field_fur_color:
     weight: 7
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+  field_fur_markings:
+    weight: 12
     settings:
       match_operator: CONTAINS
       size: 60

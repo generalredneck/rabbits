@@ -2,16 +2,14 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.taxonomy_term.field_eye_color
+    - field.storage.taxonomy_term.field_fur_markings
     - taxonomy.vocabulary.breeds
-    - taxonomy.vocabulary.eye_color
-_core:
-  default_config_hash: RwxCYtd_WNKagcKJ6AtETH443cqYeaeSXNHryrnJ2_U
-id: taxonomy_term.breeds.field_eye_color
-field_name: field_eye_color
+    - taxonomy.vocabulary.marking_style
+id: taxonomy_term.breeds.field_fur_markings
+field_name: field_fur_markings
 entity_type: taxonomy_term
 bundle: breeds
-label: 'Eye Color'
+label: 'Fur Markings'
 description: ''
 required: false
 translatable: false
@@ -21,7 +19,7 @@ settings:
   handler: 'default:taxonomy_term'
   handler_settings:
     target_bundles:
-      eye_color: eye_color
+      marking_style: marking_style
     sort:
       field: _none
     auto_create: false

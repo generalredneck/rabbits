@@ -1,9 +1,10 @@
-uuid: 264a152d-566b-4e07-b763-99606a1ad3bb
 langcode: en
 status: true
 dependencies:
   module:
     - taxonomy
+_core:
+  default_config_hash: IfGxpovHlabTzqQiLebufhd7txO_Muh7ob82OU-WeNk
 id: taxonomy_term.field_eye_color
 field_name: field_eye_color
 entity_type: taxonomy_term
@@ -12,7 +13,7 @@ settings:
   target_type: taxonomy_term
 module: core
 locked: false
-cardinality: 1
+cardinality: -1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

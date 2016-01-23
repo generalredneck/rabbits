@@ -3,6 +3,7 @@ type: module
 core: 8.x
 dependencies:
   - image
+  - rabbits_taxonomy
   - text
 features:
   required:
@@ -12,3 +13,4 @@ features:
     - taxonomy.vocabulary.fur_colors
     - taxonomy.vocabulary.fur_type
     - taxonomy.vocabulary.marking_style
+    - field.storage.taxonomy_term.field_fur_markings

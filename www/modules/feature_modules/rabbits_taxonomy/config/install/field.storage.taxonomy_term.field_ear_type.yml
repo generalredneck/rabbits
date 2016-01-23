@@ -1,9 +1,10 @@
-uuid: 4ae713cc-0d86-46b6-9848-72808781cd61
 langcode: en
 status: true
 dependencies:
   module:
     - taxonomy
+_core:
+  default_config_hash: 6io1FZuLxjMLWsHGSk_AHfrrL59AM8ytffOG7GSJz_g
 id: taxonomy_term.field_ear_type
 field_name: field_ear_type
 entity_type: taxonomy_term

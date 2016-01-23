@@ -3,16 +3,15 @@ status: true
 dependencies:
   module:
     - taxonomy
-_core:
-  default_config_hash: 88CTCWmUJHoWqLivsRRch9rEv1pQV_lSMBcSKRqpchg
-id: taxonomy_term.field_arba_accepted
-field_name: field_arba_accepted
+id: taxonomy_term.field_fur_markings
+field_name: field_fur_markings
 entity_type: taxonomy_term
-type: boolean
-settings: {  }
+type: entity_reference
+settings:
+  target_type: taxonomy_term
 module: core
 locked: false
-cardinality: 1
+cardinality: -1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

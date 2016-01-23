@@ -4,6 +4,8 @@ dependencies:
   config:
     - field.storage.taxonomy_term.field_arba_accepted
     - taxonomy.vocabulary.breeds
+_core:
+  default_config_hash: qwCm6H9F0sEc0epLAi4_MEcefTKqW_xUogNpjntZj1U
 id: taxonomy_term.breeds.field_arba_accepted
 field_name: field_arba_accepted
 entity_type: taxonomy_term

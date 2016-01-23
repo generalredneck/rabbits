@@ -1,6 +1,8 @@
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: rH8PnLuCtVn_qYZBFWNJ2BM6VAKOR0chTSw2f0_i9Jk
 name: 'Fur Colors'
 vid: fur_colors
 description: ''

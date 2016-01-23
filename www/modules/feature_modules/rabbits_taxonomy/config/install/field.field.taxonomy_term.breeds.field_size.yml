@@ -4,6 +4,8 @@ dependencies:
   config:
     - field.storage.taxonomy_term.field_size
     - taxonomy.vocabulary.breeds
+_core:
+  default_config_hash: ql3SpDjoOMvDwM5dM_2P3Ny8dsb9g0AxAfGAPgMJd7Y
 id: taxonomy_term.breeds.field_size
 field_name: field_size
 entity_type: taxonomy_term

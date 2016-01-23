@@ -1,4 +1,3 @@
-uuid: 2785da13-c0e9-4de9-8507-7bb4e45bae2f
 langcode: en
 status: true
 dependencies:
@@ -6,6 +5,8 @@ dependencies:
     - file
     - image
     - taxonomy
+_core:
+  default_config_hash: FjLTVqHegR838kMv6XhPWTjw4xwWYvupLtICwM2N-PA
 id: taxonomy_term.field_breed_image
 field_name: field_breed_image
 entity_type: taxonomy_term

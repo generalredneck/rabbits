@@ -1,6 +1,8 @@
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: fe-nZqtOUyUYpjptlfONoKk6_EMtxnH-Yd_q3bdp5Ec
 name: 'Eye Color'
 vid: eye_color
 description: ''
