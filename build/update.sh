@@ -11,6 +11,8 @@ pushd "$drupal_base"
 # the updates are run.
 echo "Initial Update so updated modules can work.";
 $drush updb -y;
+echo "Reverting Configuration"
+$drush cim sync -y
 echo "Enabling modules";
 $drush en $(echo $DROPSHIP_SEEDS | tr ':' ' ') -y
 echo "Clearing drush caches.";
@@ -21,8 +23,6 @@ if [[ ! -e "$base/cnf/drupal/system.site.yml" ]]; then
   $drush cex -y
   echo "Commit these changes."
 fi
-echo "Reverting Configuration"
-$drush cim sync -y
 # Default Theme is now set up in Drupal Configuration.
 echo "Clearing caches one last time.";
 $drush cr
