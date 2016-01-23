@@ -1,5 +1,58 @@
 <?php
 
+use Drupal\migrate\Entity\MigrationInterface;
+use Drupal\migrate\Plugin\MigrateSourceInterface;
+use Drupal\migrate\Row;
+use Drupal\taxonomy\Entity\Term;
 function rabbits_breed_migration_parse_fur_color($string) {
   return $string;
+}
+
+function rabbits_breed_migration_migrate_breed_term_prepare_row(Row $row, MigrateSourceInterface $source, MigrationInterface $migration) {
+  if ($migration->id() == 'breed_term') {
+    $multi_value_fields = array(
+      'fur_type',
+      'ear_type',
+      'eye_color',
+      'marking_style',
+      'fur_colors',
+    );
+
+    foreach($multi_value_fields as $field) {
+      $value = trim($row->getSourceProperty($field));
+      if (empty($value)) {
+        $row->setSourceProperty($field, 0);
+        continue;
+      }
+      $array = explode(',', $value);
+      foreach ($array as &$item) {
+        $item = trim($item);
+        if (empty($item)) {
+          unset($item);
+          continue;
+        }
+        $tids = \Drupal::entityQuery('taxonomy_term')
+          ->condition('name', $item)
+          ->condition('vid', $field)
+          ->execute();
+        $tid = reset($tids);
+        if (empty($tid)) {
+          try {
+          $term = Term::create(array(
+            'name' => $item,
+            'vid' => $field,
+          ))->save();
+          }
+          catch (Exception $e) {
+            throw $e;
+          }
+          $tid = $term->tid;
+        }
+        $item = $tid;
+      }
+      $row->setSourceProperty($field, $array);
+    }
+
+  }
+
 }
