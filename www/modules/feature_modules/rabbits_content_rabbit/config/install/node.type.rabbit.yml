@@ -1,0 +1,12 @@
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 63t-IrG3QidY10Agd7taKIT76OUuaqT-cLHy8-NCvLI
+name: Rabbit
+type: rabbit
+description: ''
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

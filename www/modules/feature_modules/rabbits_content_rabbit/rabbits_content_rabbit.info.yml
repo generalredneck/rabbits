@@ -1,0 +1,13 @@
+name: 'Rabbits Content Rabbit'
+type: module
+core: 8.x
+dependencies:
+  - image
+  - node
+  - options
+  - rabbits_content_fields
+  - rabbits_content_rabbit
+  - rabbits_taxonomy
+  - text
+  - user
+features: true

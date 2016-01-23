@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_dam
+    - node.type.rabbit
+_core:
+  default_config_hash: '-hBLUwM7Tkob1y5DjnA_fCkznkAhCn5ztskUVCEPm3o'
+id: node.rabbit.field_dam
+field_name: field_dam
+entity_type: node
+bundle: rabbit
+label: Dam
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      rabbit: rabbit
+    sort:
+      field: title
+      direction: ASC
+field_type: entity_reference

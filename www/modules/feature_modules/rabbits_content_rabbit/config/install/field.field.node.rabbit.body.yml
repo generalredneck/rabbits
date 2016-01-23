@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.rabbit
+  module:
+    - text
+_core:
+  default_config_hash: Zca6S6QDC8B6LkGy-wpgPZwDFSr9f9eQtwwcgFFNvk4
+id: node.rabbit.body
+field_name: body
+entity_type: node
+bundle: rabbit
+label: Notes
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

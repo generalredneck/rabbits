@@ -1,0 +1,106 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.rabbit.body
+    - field.field.node.rabbit.field_breed
+    - field.field.node.rabbit.field_dam
+    - field.field.node.rabbit.field_ear_tattoo_number
+    - field.field.node.rabbit.field_ear_type
+    - field.field.node.rabbit.field_eye_color
+    - field.field.node.rabbit.field_fur_color
+    - field.field.node.rabbit.field_fur_markings
+    - field.field.node.rabbit.field_fur_type
+    - field.field.node.rabbit.field_gender
+    - field.field.node.rabbit.field_image
+    - field.field.node.rabbit.field_sire
+    - node.type.rabbit
+  module:
+    - image
+    - text
+_core:
+  default_config_hash: aLqs1OX0l19GNPGNHdCQ5Z-6590uZpGHc-HVle_1nnk
+id: node.rabbit.default
+targetEntityType: node
+bundle: rabbit
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 3
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+  field_breed:
+    weight: 7
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_dam:
+    weight: 6
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_ear_tattoo_number:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  field_ear_type:
+    weight: 8
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_eye_color:
+    weight: 9
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_fur_color:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_fur_markings:
+    weight: 11
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_fur_type:
+    weight: 12
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_gender:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_image:
+    weight: 4
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+  field_sire:
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  title:
+    type: string_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  promote: true
+  sticky: true
+  uid: true

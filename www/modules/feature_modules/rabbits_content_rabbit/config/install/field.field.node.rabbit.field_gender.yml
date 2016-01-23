@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gender
+    - node.type.rabbit
+  module:
+    - options
+_core:
+  default_config_hash: 3vW3loaiJecxwkeS-HsZtJ1c_rBY_lvrxUUkEq1qkxc
+id: node.rabbit.field_gender
+field_name: field_gender
+entity_type: node
+bundle: rabbit
+label: Gender
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: Unknown
+default_value_callback: ''
+settings: {  }
+field_type: list_string

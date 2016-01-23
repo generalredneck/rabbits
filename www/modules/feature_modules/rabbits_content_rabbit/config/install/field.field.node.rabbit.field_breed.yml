@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_breed
+    - node.type.rabbit
+    - taxonomy.vocabulary.breeds
+  content:
+    - 'taxonomy_term:breeds:d1896e8a-f795-4b94-a202-2a8118d6aeb5'
+_core:
+  default_config_hash: I7-ouWwYdRRjTlFVfevPCXngKXrOztnNAhSVH7iPVZc
+id: node.rabbit.field_breed
+field_name: field_breed
+entity_type: node
+bundle: rabbit
+label: Breed
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    target_uuid: d1896e8a-f795-4b94-a202-2a8118d6aeb5
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      breeds: breeds
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

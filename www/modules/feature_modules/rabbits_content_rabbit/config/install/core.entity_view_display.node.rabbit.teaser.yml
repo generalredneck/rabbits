@@ -1,0 +1,50 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.rabbit.body
+    - field.field.node.rabbit.field_breed
+    - field.field.node.rabbit.field_dam
+    - field.field.node.rabbit.field_ear_tattoo_number
+    - field.field.node.rabbit.field_ear_type
+    - field.field.node.rabbit.field_eye_color
+    - field.field.node.rabbit.field_fur_color
+    - field.field.node.rabbit.field_fur_markings
+    - field.field.node.rabbit.field_fur_type
+    - field.field.node.rabbit.field_gender
+    - field.field.node.rabbit.field_image
+    - field.field.node.rabbit.field_sire
+    - node.type.rabbit
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: IcMZ4l-7FNWm968UtFjLXQrGxzNFvpOf78Faho2-U00
+id: node.rabbit.teaser
+targetEntityType: node
+bundle: rabbit
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden:
+  field_breed: true
+  field_color: true
+  field_dam: true
+  field_ear_tattoo_number: true
+  field_ear_type: true
+  field_eye_color: true
+  field_fur_color: true
+  field_fur_markings: true
+  field_fur_type: true
+  field_gender: true
+  field_image: true
+  field_sire: true
