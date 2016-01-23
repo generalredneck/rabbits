@@ -28,7 +28,6 @@ function rabbits_breed_migration_migrate_breed_term_prepare_row(Row $row, Migrat
       foreach ($array as &$item) {
         $item = trim($item);
         if (empty($item)) {
-          unset($item);
           continue;
         }
         $tids = \Drupal::entityQuery('taxonomy_term')
@@ -37,16 +36,12 @@ function rabbits_breed_migration_migrate_breed_term_prepare_row(Row $row, Migrat
           ->execute();
         $tid = reset($tids);
         if (empty($tid)) {
-          try {
           $term = Term::create(array(
             'name' => $item,
             'vid' => $field,
-          ))->save();
-          }
-          catch (Exception $e) {
-            throw $e;
-          }
-          $tid = $term->tid;
+          ));
+          $term->save();
+          $tid = $term->tid->value;
         }
         $item = $tid;
       }
