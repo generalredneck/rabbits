@@ -4,7 +4,7 @@ dependencies:
   module:
     - taxonomy
 _core:
-  default_config_hash: IfGxpovHlabTzqQiLebufhd7txO_Muh7ob82OU-WeNk
+  default_config_hash: opaZVOOkolzJ_JiAET8ixkIa9gfXf3UlX0mCukOiJas
 id: taxonomy_term.field_eye_color
 field_name: field_eye_color
 entity_type: taxonomy_term

@@ -4,7 +4,7 @@ dependencies:
   module:
     - taxonomy
 _core:
-  default_config_hash: 88CTCWmUJHoWqLivsRRch9rEv1pQV_lSMBcSKRqpchg
+  default_config_hash: e7wnZoDDAiwBwImDQcyDzz3XSin0QCK4_LCbExvcuvk
 id: taxonomy_term.field_arba_accepted
 field_name: field_arba_accepted
 entity_type: taxonomy_term

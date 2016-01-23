@@ -1,17 +1,11 @@
 name: 'Rabbits Content Fields'
 type: module
 core: 8.x
-features:
-  required:
-    - field.storage.node.body
-    - field.storage.node.field_breed
-    - field.storage.node.field_dam
-    - field.storage.node.field_ear_tattoo_number
-    - field.storage.node.field_ear_type
-    - field.storage.node.field_eye_color
-    - field.storage.node.field_fur_color
-    - field.storage.node.field_fur_markings
-    - field.storage.node.field_fur_type
-    - field.storage.node.field_gender
-    - field.storage.node.field_image
-    - field.storage.node.field_sire
+dependencies:
+  - file
+  - image
+  - node
+  - options
+  - taxonomy
+  - text
+features: true

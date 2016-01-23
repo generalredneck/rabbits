@@ -4,7 +4,7 @@ dependencies:
   module:
     - taxonomy
 _core:
-  default_config_hash: 6AwnTpHLnp3i7phRFs7-1v0GW63EYw9ysQtm5TouXmo
+  default_config_hash: wotXB-EbqVmNtLT8XkzrXjun57EGIwpYAwuxaCRuP5I
 id: taxonomy_term.field_brc_accepted
 field_name: field_brc_accepted
 entity_type: taxonomy_term

@@ -4,7 +4,7 @@ dependencies:
   module:
     - taxonomy
 _core:
-  default_config_hash: LNLOAiI_viwbgG-HxSnHqrNW06U4ng50XUznStIuoi8
+  default_config_hash: 5qypINrpKyPMJkSOblALWQ7pzbCklB-sj-BfIn8Qdso
 id: taxonomy_term.field_origin
 field_name: field_origin
 entity_type: taxonomy_term

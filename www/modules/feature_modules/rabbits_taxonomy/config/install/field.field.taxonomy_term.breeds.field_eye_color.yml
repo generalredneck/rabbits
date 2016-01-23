@@ -6,7 +6,7 @@ dependencies:
     - taxonomy.vocabulary.breeds
     - taxonomy.vocabulary.eye_color
 _core:
-  default_config_hash: RwxCYtd_WNKagcKJ6AtETH443cqYeaeSXNHryrnJ2_U
+  default_config_hash: nRnEi1jUxPUHgYA_SyL783qKYHXp4WMIrO4x8RExsIk
 id: taxonomy_term.breeds.field_eye_color
 field_name: field_eye_color
 entity_type: taxonomy_term

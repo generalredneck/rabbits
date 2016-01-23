@@ -2,16 +2,34 @@ name: 'Rabbits Taxonomy'
 type: module
 core: 8.x
 dependencies:
+  - file
   - image
+  - node
+  - options
+  - rabbits_content_fields
+  - rabbits_content_rabbit
   - rabbits_taxonomy
   - taxonomy
   - text
+  - user
 features:
+  excluded:
+    - core.entity_form_display.node.rabbit.default
+    - core.entity_view_display.node.rabbit.default
+    - core.entity_view_display.node.rabbit.teaser
+    - field.field.node.rabbit.field_breed
+    - field.field.node.rabbit.field_ear_type
+    - field.field.node.rabbit.field_eye_color
+    - field.field.node.rabbit.field_fur_color
+    - field.field.node.rabbit.field_fur_markings
+    - field.field.node.rabbit.field_fur_type
   required:
-    - taxonomy.vocabulary.breeds
-    - taxonomy.vocabulary.ear_type
-    - taxonomy.vocabulary.eye_color
-    - taxonomy.vocabulary.fur_colors
-    - taxonomy.vocabulary.fur_type
-    - taxonomy.vocabulary.marking_style
-    - field.storage.taxonomy_term.field_fur_markings
+    - field.storage.taxonomy_term.field_arba_accepted
+    - field.storage.taxonomy_term.field_brc_accepted
+    - field.storage.taxonomy_term.field_breed_image
+    - field.storage.taxonomy_term.field_ear_type
+    - field.storage.taxonomy_term.field_eye_color
+    - field.storage.taxonomy_term.field_fur_color
+    - field.storage.taxonomy_term.field_fur_type
+    - field.storage.taxonomy_term.field_origin
+    - field.storage.taxonomy_term.field_size

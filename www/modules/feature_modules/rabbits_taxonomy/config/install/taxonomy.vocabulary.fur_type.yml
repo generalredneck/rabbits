@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: _emv3e-TIwvYrJglELZG4PjhdILD5C6Ct5bndWinnVE
+  default_config_hash: 1pJafU4_gj7pxeFVNS03iHFnTbsyx1EGM5YAMHUfexM
 name: 'Fur Type'
 vid: fur_type
 description: ''

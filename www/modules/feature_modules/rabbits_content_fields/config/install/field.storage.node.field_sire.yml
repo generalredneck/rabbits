@@ -3,6 +3,8 @@ status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: fTSU_gTA3Gh5zuqn0Ovmd_q2FUFzra_PC4UyyhI-RP8
 id: node.field_sire
 field_name: field_sire
 entity_type: node

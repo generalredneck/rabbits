@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: W7PPhVNqbRqtk8Qs6Af6OI466gDOsjho8FWrFDwjlAc
+  default_config_hash: tRZAQS0Xud1G8gTO_6JoB-bc3ZWhfDyGc4-6xi08cIU
 name: 'Ear Type'
 vid: ear_type
 description: ''

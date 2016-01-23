@@ -4,7 +4,7 @@ dependencies:
   module:
     - taxonomy
 _core:
-  default_config_hash: 6io1FZuLxjMLWsHGSk_AHfrrL59AM8ytffOG7GSJz_g
+  default_config_hash: GhC6qwiVvqCj3CYVH8QDtpKNyco5u1GhoYpd_N9Esyk
 id: taxonomy_term.field_ear_type
 field_name: field_ear_type
 entity_type: taxonomy_term

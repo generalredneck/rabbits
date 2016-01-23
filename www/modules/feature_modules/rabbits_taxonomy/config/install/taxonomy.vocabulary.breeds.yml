@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: lgzlQ307sTDtDehwQcKyTLVPTcBcKTrp4uUYnFGIWuc
+  default_config_hash: 7SBNqgiIC-o0jtRtL4-mPRtUEhCCsXisMP5gmNGpMgI
 name: Breeds
 vid: breeds
 description: ''

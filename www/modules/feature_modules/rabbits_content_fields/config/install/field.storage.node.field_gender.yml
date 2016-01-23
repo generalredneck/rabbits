@@ -4,6 +4,8 @@ dependencies:
   module:
     - node
     - options
+_core:
+  default_config_hash: UeAD2NnENUgNjlI56Krwm-1I2Wy21OEYugflinTqmC4
 id: node.field_gender
 field_name: field_gender
 entity_type: node

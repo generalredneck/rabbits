@@ -17,7 +17,7 @@ dependencies:
     - image
     - text
 _core:
-  default_config_hash: K0kNZl9kAiXa4KI290LZqrk4kA55P8wzNK6BjQEp_Pk
+  default_config_hash: 0dbAc77206UdzMLJGbbRdzBQoZeSHGXKXahuwqM3WYs
 id: taxonomy_term.breeds.default
 targetEntityType: taxonomy_term
 bundle: breeds

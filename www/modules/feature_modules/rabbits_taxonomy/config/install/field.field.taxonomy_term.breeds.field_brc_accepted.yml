@@ -5,7 +5,7 @@ dependencies:
     - field.storage.taxonomy_term.field_brc_accepted
     - taxonomy.vocabulary.breeds
 _core:
-  default_config_hash: Gn5ivmMYiafbG9U4jF_q6wJAxGSBKyxwx2xOs2rbDFs
+  default_config_hash: E6zbe9pDvV85UN3HujtubSDKurkhYTLl9xsA2eM4TjU
 id: taxonomy_term.breeds.field_brc_accepted
 field_name: field_brc_accepted
 entity_type: taxonomy_term

@@ -6,7 +6,7 @@ dependencies:
     - taxonomy.vocabulary.breeds
     - taxonomy.vocabulary.ear_type
 _core:
-  default_config_hash: DcJVojq5S1r52maLWiPSINLfDdFF2nIDz_igci8TQqk
+  default_config_hash: iaKUeUr4goCgpKfL-YWd7052AFTT_iLduHXV05UpLXs
 id: taxonomy_term.breeds.field_ear_type
 field_name: field_ear_type
 entity_type: taxonomy_term

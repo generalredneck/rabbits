@@ -6,7 +6,7 @@ dependencies:
     - taxonomy.vocabulary.breeds
     - taxonomy.vocabulary.fur_type
 _core:
-  default_config_hash: Uelcy96epeh-TpppqIgPyo_9G1Lunh1IjAVsV7ko2w4
+  default_config_hash: RsYuMoreSOWr13Mdfze4JSYUiTQKrHIHECKqD40CmQ4
 id: taxonomy_term.breeds.field_fur_type
 field_name: field_fur_type
 entity_type: taxonomy_term

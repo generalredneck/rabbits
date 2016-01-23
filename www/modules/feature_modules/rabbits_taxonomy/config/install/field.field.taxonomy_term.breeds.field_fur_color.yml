@@ -6,7 +6,7 @@ dependencies:
     - taxonomy.vocabulary.breeds
     - taxonomy.vocabulary.fur_colors
 _core:
-  default_config_hash: 1_l5rJBB6jYs-SV_6I34yClWtLHSnKriNUPDjlVHl9Q
+  default_config_hash: Q5d_NFD414tpSkmN73cEPMCes9LKHWkqkDLV97wlYsU
 id: taxonomy_term.breeds.field_fur_color
 field_name: field_fur_color
 entity_type: taxonomy_term

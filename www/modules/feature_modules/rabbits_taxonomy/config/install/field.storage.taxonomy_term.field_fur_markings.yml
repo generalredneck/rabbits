@@ -3,6 +3,8 @@ status: true
 dependencies:
   module:
     - taxonomy
+_core:
+  default_config_hash: JikfIHa1SWWxxvwRsGQphFh6LIDI-4sS4yITOYKuXbk
 id: taxonomy_term.field_fur_markings
 field_name: field_fur_markings
 entity_type: taxonomy_term

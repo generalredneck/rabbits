@@ -6,7 +6,7 @@ dependencies:
     - image
     - taxonomy
 _core:
-  default_config_hash: FjLTVqHegR838kMv6XhPWTjw4xwWYvupLtICwM2N-PA
+  default_config_hash: BwuRQdg-KG4mnevC-YFWsQiBqLKQeTqBRKf-jqThgzY
 id: taxonomy_term.field_breed_image
 field_name: field_breed_image
 entity_type: taxonomy_term

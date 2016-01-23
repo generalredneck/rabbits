@@ -4,7 +4,7 @@ dependencies:
   module:
     - taxonomy
 _core:
-  default_config_hash: ErbjbD_VI_z8uZYf4MN-wIpczWsUpyaYM8e6d0oL7Go
+  default_config_hash: hkWW7b_C7XMeALOCK952zTDlMl-g_O6HMcOA5kzG9q4
 id: taxonomy_term.field_size
 field_name: field_size
 entity_type: taxonomy_term

@@ -4,6 +4,8 @@ dependencies:
   module:
     - node
     - taxonomy
+_core:
+  default_config_hash: iashsqWJRZXknu5DBJImVkMb1VSh1jvjlAWGp_PLvtA
 id: node.field_eye_color
 field_name: field_eye_color
 entity_type: node

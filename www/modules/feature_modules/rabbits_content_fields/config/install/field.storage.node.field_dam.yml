@@ -3,6 +3,8 @@ status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: fuYDpEiiBSBJ7yF-BIhMi4qcfdaNMpTNc3yG_3-tpYM
 id: node.field_dam
 field_name: field_dam
 entity_type: node

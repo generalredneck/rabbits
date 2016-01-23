@@ -4,7 +4,7 @@ dependencies:
   module:
     - taxonomy
 _core:
-  default_config_hash: nGfWFTSBHG37hmo-sKeNrdyeR3BrYKCaNhDfNZEYo-c
+  default_config_hash: UTz2bFq-QLIATe3j1bpbzmAVB9bhc_6WlGb0lH46A3w
 id: taxonomy_term.field_fur_type
 field_name: field_fur_type
 entity_type: taxonomy_term

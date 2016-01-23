@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: At1RDK2aJTQGomMVddQh_f9oIc_pWCWQL8_7MzGoZCU
+  default_config_hash: JM6fBJCsgjwIYIxsMTFS26p1Zuwa_UzdEmRV99Jj-Z4
 name: 'Marking Style'
 vid: marking_style
 description: ''
