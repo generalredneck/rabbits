@@ -1,0 +1,84 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.mating_record.body
+    - field.field.node.mating_record.field_dam
+    - field.field.node.mating_record.field_date_bred
+    - field.field.node.mating_record.field_kindled_date
+    - field.field.node.mating_record.field_kits_alive
+    - field.field.node.mating_record.field_kits_dead
+    - field.field.node.mating_record.field_nestbox_date
+    - field.field.node.mating_record.field_palpate_date
+    - field.field.node.mating_record.field_sire
+    - node.type.mating_record
+  module:
+    - datetime
+    - text
+id: node.mating_record.default
+targetEntityType: node
+bundle: mating_record
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 8
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+  field_dam:
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+  field_date_bred:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+  field_kindled_date:
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+  field_kits_alive:
+    weight: 6
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+  field_kits_dead:
+    weight: 7
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+  field_nestbox_date:
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+  field_palpate_date:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+  field_sire:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+hidden:
+  created: true
+  promote: true
+  sticky: true
+  title: true
+  uid: true

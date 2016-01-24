@@ -13,9 +13,12 @@ dependencies:
 features:
   excluded:
     - core.entity_form_display.node.rabbit.default
+    - core.entity_form_display.node.mating_record.default
     - core.entity_view_display.node.rabbit.default
     - core.entity_view_display.node.rabbit.pedigree
     - core.entity_view_display.node.rabbit.teaser
+    - core.entity_view_display.node.mating_record.default
+    - core.entity_view_display.node.mating_record.teaser
     - field.field.node.rabbit.body
     - field.field.node.rabbit.field_breed
     - field.field.node.rabbit.field_dam
@@ -28,6 +31,17 @@ features:
     - field.field.node.rabbit.field_gender
     - field.field.node.rabbit.field_image
     - field.field.node.rabbit.field_sire
+    - field.field.node.mating_record.body
+    - field.field.node.mating_record.field_dam
+    - field.field.node.mating_record.field_sire
+    - field.field.node.rabbit.field_date_birth
+    - field.field.node.rabbit.field_date_death
   required:
     - field.storage.node.field_date_birth
     - field.storage.node.field_date_death
+    - field.storage.node.field_date_bred
+    - field.storage.node.field_kindled_date
+    - field.storage.node.field_kits_alive
+    - field.storage.node.field_kits_dead
+    - field.storage.node.field_nestbox_date
+    - field.storage.node.field_palpate_date

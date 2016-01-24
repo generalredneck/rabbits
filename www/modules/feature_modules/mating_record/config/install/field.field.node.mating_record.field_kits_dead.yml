@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_kits_dead
+    - node.type.mating_record
+id: node.mating_record.field_kits_dead
+field_name: field_kits_dead
+entity_type: node
+bundle: mating_record
+label: 'Kits Dead'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

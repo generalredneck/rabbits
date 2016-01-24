@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nestbox_date
+    - node.type.mating_record
+  module:
+    - datetime
+id: node.mating_record.field_nestbox_date
+field_name: field_nestbox_date
+entity_type: node
+bundle: mating_record
+label: 'Nestbox Date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime
