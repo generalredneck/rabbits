@@ -4,7 +4,7 @@ dependencies:
   module:
     - node
 _core:
-  default_config_hash: NFrSQ8ZGswEW57fXBeo26tZwDqIrnUP9RoOG1_9gVqc
+  default_config_hash: tRsmAo6kBBYr7NDNpMkNVBDFi6pisM5Q-dh5LBn-FdU
 id: node.field_ear_tattoo_number
 field_name: field_ear_tattoo_number
 entity_type: node

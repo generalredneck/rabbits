@@ -2,10 +2,32 @@ name: 'Rabbits Content Fields'
 type: module
 core: 8.x
 dependencies:
+  - datetime
   - file
   - image
   - node
   - options
   - taxonomy
   - text
-features: true
+  - user
+features:
+  excluded:
+    - core.entity_form_display.node.rabbit.default
+    - core.entity_view_display.node.rabbit.default
+    - core.entity_view_display.node.rabbit.pedigree
+    - core.entity_view_display.node.rabbit.teaser
+    - field.field.node.rabbit.body
+    - field.field.node.rabbit.field_breed
+    - field.field.node.rabbit.field_dam
+    - field.field.node.rabbit.field_ear_tattoo_number
+    - field.field.node.rabbit.field_ear_type
+    - field.field.node.rabbit.field_eye_color
+    - field.field.node.rabbit.field_fur_color
+    - field.field.node.rabbit.field_fur_markings
+    - field.field.node.rabbit.field_fur_type
+    - field.field.node.rabbit.field_gender
+    - field.field.node.rabbit.field_image
+    - field.field.node.rabbit.field_sire
+  required:
+    - field.storage.node.field_date_birth
+    - field.storage.node.field_date_death
