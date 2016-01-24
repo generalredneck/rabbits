@@ -1,0 +1,10 @@
+uuid: 580429e2-a0f3-4480-b800-009fa1e27e29
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.pedigree
+label: Pedigree
+targetEntityType: node
+cache: true

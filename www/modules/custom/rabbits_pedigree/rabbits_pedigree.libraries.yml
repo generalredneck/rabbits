@@ -1,0 +1,7 @@
+google-charts:
+  version: 1.x
+  js:
+    https://www.gstatic.com/charts/loader.js: { type: external, minified: true }
+    js/pedigree.js: {}
+  dependencies:
+    - core/jquery

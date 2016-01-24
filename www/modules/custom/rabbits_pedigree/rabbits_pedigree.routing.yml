@@ -1,0 +1,8 @@
+rabbits_pedigree.content:
+  path: '/rabbits/{node_id}/pedigree'
+  defaults:
+    _controller: '\Drupal\rabbits_pedigree\Controller\PedigreeController::pedigreePageView'
+    _title_callback: '\Drupal\rabbits_pedigree\Controller\PedigreeController::pedigreePageTitle'
+  requirements:
+    _permission: 'access content'
+    node: \d+
