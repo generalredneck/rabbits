@@ -7,6 +7,8 @@ dependencies:
     - field.field.node.rabbit.body
     - field.field.node.rabbit.field_breed
     - field.field.node.rabbit.field_dam
+    - field.field.node.rabbit.field_date_birth
+    - field.field.node.rabbit.field_date_death
     - field.field.node.rabbit.field_ear_tattoo_number
     - field.field.node.rabbit.field_ear_type
     - field.field.node.rabbit.field_eye_color
@@ -18,10 +20,11 @@ dependencies:
     - field.field.node.rabbit.field_sire
     - node.type.rabbit
   module:
+    - datetime
     - options
     - user
 _core:
-  default_config_hash: pWip62-NMF8mMml_5hlbbjwF96AXBTubxq7b2tjEndw
+  default_config_hash: sQSXYKQwQmQ1wGAnU_gibKxiFf2r56gHhJXa4IlZc9Y
 id: node.rabbit.pedigree
 targetEntityType: node
 bundle: rabbit
@@ -34,6 +37,14 @@ content:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
+  field_date_birth:
+    type: datetime_default
+    weight: 4
+    label: inline
+    settings:
+      timezone_override: ''
+      format_type: html_date
+    third_party_settings: {  }
   field_ear_tattoo_number:
     weight: 0
     label: hidden
@@ -58,6 +69,7 @@ hidden:
   body: true
   field_color: true
   field_dam: true
+  field_date_death: true
   field_ear_type: true
   field_eye_color: true
   field_fur_markings: true
