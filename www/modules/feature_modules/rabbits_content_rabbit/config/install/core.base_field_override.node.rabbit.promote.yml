@@ -4,7 +4,7 @@ dependencies:
   config:
     - node.type.rabbit
 _core:
-  default_config_hash: 2bO9QKhIyQFMGuReRJHmGIj_-98gGvEzRq8R1FWmCdA
+  default_config_hash: XAsb3hRydQDFsGNH46pOFUUA1t85eiZdG8vzt77fyMM
 id: node.rabbit.promote
 field_name: promote
 entity_type: node

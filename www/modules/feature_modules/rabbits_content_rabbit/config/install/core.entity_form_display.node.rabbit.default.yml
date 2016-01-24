@@ -5,6 +5,8 @@ dependencies:
     - field.field.node.rabbit.body
     - field.field.node.rabbit.field_breed
     - field.field.node.rabbit.field_dam
+    - field.field.node.rabbit.field_date_birth
+    - field.field.node.rabbit.field_date_death
     - field.field.node.rabbit.field_ear_tattoo_number
     - field.field.node.rabbit.field_ear_type
     - field.field.node.rabbit.field_eye_color
@@ -16,10 +18,11 @@ dependencies:
     - field.field.node.rabbit.field_sire
     - node.type.rabbit
   module:
+    - datetime
     - image
     - text
 _core:
-  default_config_hash: aLqs1OX0l19GNPGNHdCQ5Z-6590uZpGHc-HVle_1nnk
+  default_config_hash: qyWVpWwtNgc47eci8bd6VRjCCm6aWuMt95Kf5zQ1cBM
 id: node.rabbit.default
 targetEntityType: node
 bundle: rabbit
@@ -34,7 +37,7 @@ content:
       placeholder: ''
     third_party_settings: {  }
   field_breed:
-    weight: 7
+    weight: 9
     settings: {  }
     third_party_settings: {  }
     type: options_select
@@ -43,6 +46,16 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: options_select
+  field_date_birth:
+    weight: 7
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+  field_date_death:
+    weight: 8
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
   field_ear_tattoo_number:
     weight: 1
     settings:
@@ -51,27 +64,27 @@ content:
     third_party_settings: {  }
     type: string_textfield
   field_ear_type:
-    weight: 8
-    settings: {  }
-    third_party_settings: {  }
-    type: options_select
-  field_eye_color:
-    weight: 9
-    settings: {  }
-    third_party_settings: {  }
-    type: options_select
-  field_fur_color:
     weight: 10
     settings: {  }
     third_party_settings: {  }
     type: options_select
-  field_fur_markings:
+  field_eye_color:
     weight: 11
     settings: {  }
     third_party_settings: {  }
     type: options_select
-  field_fur_type:
+  field_fur_color:
     weight: 12
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_fur_markings:
+    weight: 13
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_fur_type:
+    weight: 14
     settings: {  }
     third_party_settings: {  }
     type: options_select

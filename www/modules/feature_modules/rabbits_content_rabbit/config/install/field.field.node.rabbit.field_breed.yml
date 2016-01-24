@@ -5,10 +5,8 @@ dependencies:
     - field.storage.node.field_breed
     - node.type.rabbit
     - taxonomy.vocabulary.breeds
-  content:
-    - 'taxonomy_term:breeds:d1896e8a-f795-4b94-a202-2a8118d6aeb5'
 _core:
-  default_config_hash: I7-ouWwYdRRjTlFVfevPCXngKXrOztnNAhSVH7iPVZc
+  default_config_hash: dGaGgsj54QdEYhmwzNF2IRtrA981q86wKBf7QGjpno8
 id: node.rabbit.field_breed
 field_name: field_breed
 entity_type: node

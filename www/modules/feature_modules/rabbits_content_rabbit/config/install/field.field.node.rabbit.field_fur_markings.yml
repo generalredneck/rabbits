@@ -6,7 +6,7 @@ dependencies:
     - node.type.rabbit
     - taxonomy.vocabulary.marking_style
 _core:
-  default_config_hash: tBSBf8oAR_lSM-I12eBsIrg7jufC4U9_YiOE_Po97xE
+  default_config_hash: U9FXmXkOazK9T5w1q3aTCLL074wNQ2ik5nNBvbU2iro
 id: node.rabbit.field_fur_markings
 field_name: field_fur_markings
 entity_type: node

@@ -2,6 +2,7 @@ name: 'Rabbits Content Rabbit'
 type: module
 core: 8.x
 dependencies:
+  - datetime
   - image
   - node
   - options
@@ -10,4 +11,6 @@ dependencies:
   - rabbits_taxonomy
   - text
   - user
-features: true
+features:
+  excluded:
+    - core.entity_view_display.node.rabbit.pedigree

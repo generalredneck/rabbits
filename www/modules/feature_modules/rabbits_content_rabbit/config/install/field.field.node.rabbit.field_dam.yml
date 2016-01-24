@@ -5,7 +5,7 @@ dependencies:
     - field.storage.node.field_dam
     - node.type.rabbit
 _core:
-  default_config_hash: '-hBLUwM7Tkob1y5DjnA_fCkznkAhCn5ztskUVCEPm3o'
+  default_config_hash: P0uqcZAM7hzhRtsMu4pKy8FWi0n_9c7QVYZD1bmbm28
 id: node.rabbit.field_dam
 field_name: field_dam
 entity_type: node

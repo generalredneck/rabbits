@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_birth
+    - node.type.rabbit
+  module:
+    - datetime
+id: node.rabbit.field_date_birth
+field_name: field_date_birth
+entity_type: node
+bundle: rabbit
+label: 'Date of Birth'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

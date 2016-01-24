@@ -5,7 +5,7 @@ dependencies:
     - field.storage.node.field_sire
     - node.type.rabbit
 _core:
-  default_config_hash: 578MU3zupEdKu9nwfkdJV0r_Z5bvJy5WNxj48YCNnpo
+  default_config_hash: '-Z_3OzexfZodBHM6CoRRRQ9NezVD3ajqYnVmU_ZeK0g'
 id: node.rabbit.field_sire
 field_name: field_sire
 entity_type: node

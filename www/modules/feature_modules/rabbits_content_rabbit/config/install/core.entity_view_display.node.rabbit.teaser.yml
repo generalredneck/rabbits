@@ -6,6 +6,8 @@ dependencies:
     - field.field.node.rabbit.body
     - field.field.node.rabbit.field_breed
     - field.field.node.rabbit.field_dam
+    - field.field.node.rabbit.field_date_birth
+    - field.field.node.rabbit.field_date_death
     - field.field.node.rabbit.field_ear_tattoo_number
     - field.field.node.rabbit.field_ear_type
     - field.field.node.rabbit.field_eye_color
@@ -20,7 +22,7 @@ dependencies:
     - text
     - user
 _core:
-  default_config_hash: IcMZ4l-7FNWm968UtFjLXQrGxzNFvpOf78Faho2-U00
+  default_config_hash: nOYvqNxbxXvaiw-anIKSxleeXBjmQXxKzezYVBvQxlE
 id: node.rabbit.teaser
 targetEntityType: node
 bundle: rabbit
@@ -39,6 +41,8 @@ hidden:
   field_breed: true
   field_color: true
   field_dam: true
+  field_date_birth: true
+  field_date_death: true
   field_ear_tattoo_number: true
   field_ear_type: true
   field_eye_color: true
