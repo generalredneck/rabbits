@@ -13,3 +13,5 @@ dependencies:
   - image
   - options
   - ckeditor
+  - rabbits_content_rabbit
+  - rabbits_pedigree

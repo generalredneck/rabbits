@@ -13,7 +13,7 @@
 
 ini_set('display_errors',1);
 ini_set('display_startup_errors',1);
-error_reporting(E_ERROR);
+error_reporting(E_ALL ^ E_NOTICE ^ E_WARNING);
 
 /**
  * Assertions.
@@ -94,4 +94,5 @@ $settings['extension_discovery_scan_tests'] = TRUE;
  * using these parameters in a request to rebuild.php.
  */
 $settings['rebuild_access'] = TRUE;
+ini_set('memory_limit', '256M');
 

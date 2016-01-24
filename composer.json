@@ -20,6 +20,18 @@
         {
             "type": "composer",
             "url": "https://packagist.drupal-composer.org"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "fperucic/treant-js",
+                "version": "1.0.6",
+                "source": {
+                   "type": "git",
+                    "url": "https://github.com/fperucic/treant-js.git",
+                    "reference": "279b552da5c86837be0e28e07e0c03c911853675"
+                }
+            }
         }
     ],
     "minimum-stability": "alpha",
@@ -42,7 +54,8 @@
         "drush/drush": "8.*",
         "drupal/migrate_plus": "8.*",
         "drupal/migrate_tools": "8.*",
-        "drupal/migrate_source_csv": "8.*@dev"
+        "drupal/migrate_source_csv": "8.*@dev",
+        "fperucic/treant-js": "1.0.6"
     },
     "require-dev": {
         "drupal/coder": "~8.2",

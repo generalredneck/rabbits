@@ -1,9 +1,0 @@
-uuid: 39527ef7-53c6-4ad5-bb34-521ea414ea05
-langcode: en
-status: true
-dependencies: {  }
-name: 'Marking Style'
-vid: marking_style
-description: ''
-hierarchy: 0
-weight: 0
