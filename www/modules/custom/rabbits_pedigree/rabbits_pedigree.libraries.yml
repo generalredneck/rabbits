@@ -3,5 +3,8 @@ google-charts:
   js:
     https://www.gstatic.com/charts/loader.js: { type: external, minified: true }
     js/pedigree.js: {}
+  css:
+    theme:
+      css/pedigree.css: {}
   dependencies:
     - core/jquery

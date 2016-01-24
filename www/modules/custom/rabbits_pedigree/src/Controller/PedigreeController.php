@@ -21,16 +21,13 @@ class PedigreeController extends ControllerBase {
       '#attached' => array(
         'library' => array('rabbits_pedigree/google-charts'),
       ),
-      'js' => array(
-        '#type' => 'htmltag',
-        '#tag' => 'script',
-        '#value' => new HtmlEscapedText("
-         "),
-      ),
-      'pedigree' => array(
-        '#type' => 'container',
-        '#attributes' => array(
-          'id' => 'pedigree-chart',
+      'content' => array(
+        'pedigree' => array(
+          '#type' => 'container',
+          '#attributes' => array(
+            'id' => 'pedigree-chart',
+            'class' => 'clearfix'
+          ),
         ),
       ),
       'offspring' => $this->selectBlock($node, 'offspring')

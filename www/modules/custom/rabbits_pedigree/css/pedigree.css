@@ -1,0 +1,8 @@
+#pedigree-chart table.google-visualization-orgchart-table {
+  font-size: 1em;
+  background-color: none;
+}
+#pedigree-chart table.google-visualization-orgchart-table tr{
+  background: none;
+  border-bottom: none;
+}

@@ -45,7 +45,10 @@ function drawChart() {
   // Create the chart.
   var chart = new google.visualization.OrgChart(document.getElementById('pedigree-chart'));
   // Draw the chart, setting the allowHtml option to true for the tooltips.
-  chart.draw(data, {allowHtml:true});
+  chart.draw(data, {
+    allowHtml: true,
+    size: 'medium',
+  });
 
 offspring.parentNode.removeChild(offspring);
 sire.parentNode.removeChild(sire);
