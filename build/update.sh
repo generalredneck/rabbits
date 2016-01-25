@@ -2,7 +2,6 @@
 set -e
 path="$(dirname "$0")"
 source "$path/common.sh"
-
 # Change to the Drupal Directory Just In Case
 pushd "$drupal_base"
 

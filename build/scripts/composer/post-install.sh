@@ -1,5 +1,7 @@
 #!/bin/sh
 
+mkdir -p www/sites/default
+
 # Prepare the services file for installation
 if [ ! -f www/sites/default/services.yml ]
   then
