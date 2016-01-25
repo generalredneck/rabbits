@@ -1,0 +1,8 @@
+name: 'Rabbits Views'
+type: module
+core: 8.x
+dependencies:
+  - rabbits_content_rabbit
+features:
+  required:
+    - views.view.rabbits_entity_reference
