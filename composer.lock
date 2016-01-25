@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8a29bec97c633d100d085105ec56e712",
-    "content-hash": "1e6da4d9ca379fa245af247bde7ca136",
+    "hash": "1c35bc60a9b3f55fa107948b9ef9d5ee",
+    "content-hash": "6571384ee88dd4099b104ed44f7641a1",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -661,6 +661,28 @@
             "time": "2014-09-09 13:34:57"
         },
         {
+            "name": "drupal/bootstrap",
+            "version": "dev-8.x-3.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/bootstrap",
+                "reference": "28352407bd04d6946845aa9433f512a5aea46617"
+            },
+            "require": {
+                "drupal/core": "8.*"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-3.x": "8.3.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "description": "Built to use Bootstrap, a sleek, intuitive, and powerful front-end framework for faster and easier web development.",
+            "homepage": "https://www.drupal.org/project/bootstrap",
+            "time": "2016-01-02 23:19:14"
+        },
+        {
             "name": "drupal/config_readonly",
             "version": "8.1.0-beta1",
             "source": {
@@ -1123,7 +1145,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/feeds",
-                "reference": "ce90e7e3073b81a02a41b786254a6f8cf0d04233"
+                "reference": "bc09970cc6047ae18037ae1aca1f117d417fd2b0"
             },
             "require": {
                 "drupal/core": "8.*"
@@ -1137,7 +1159,7 @@
             "notification-url": "https://packagist.drupal-composer.org/downloads/",
             "description": "Aggregates RSS/Atom/RDF feeds, imports CSV files and more.",
             "homepage": "https://www.drupal.org/project/feeds",
-            "time": "2015-12-24 10:37:02"
+            "time": "2016-01-25 21:03:53"
         },
         {
             "name": "drupal/job_scheduler",
@@ -1324,64 +1346,29 @@
             "homepage": "https://www.drupal.org/project/migrate_tools"
         },
         {
-            "name": "drupal/omega",
-            "version": "8.5.0-alpha4",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupal.org/project/omega",
-                "reference": "524cb1982e17e856e8f081e9aa56f6a1715d5c1d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://ftp.drupal.org/files/projects/omega-8.x-5.0-alpha4.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "drupal/core": "8.*"
-            },
-            "replace": {
-                "drupal/omega_simple_starterkit": "self.version",
-                "drupal/omega_starterkit": "self.version"
-            },
-            "suggest": {
-                "drupal/core": "Required by drupal/omega_simple_starterkit, drupal/omega_starterkit"
-            },
-            "type": "drupal-theme",
-            "extra": {
-                "branch-alias": {
-                    "dev-8.x-5.x": "8.5.x-dev"
-                }
-            },
-            "notification-url": "https://packagist.drupal-composer.org/downloads/",
-            "description": "A flexible theme with tons of configurable regions and a responsive, mobile-first layout.",
-            "homepage": "https://www.drupal.org/project/omega"
-        },
-        {
             "name": "drupal/panels",
-            "version": "8.3.0-alpha20",
+            "version": "8.3.0-beta2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/panels",
-                "reference": "1ddd3078e22149d19619c2e5a0caded4a1d55e55"
+                "reference": "48e6e2f0ed7e1b3fc0b7be6506afde9b53d55ecf"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://ftp.drupal.org/files/projects/panels-8.x-3.0-alpha20.zip",
+                "url": "https://ftp.drupal.org/files/projects/panels-8.x-3.0-beta2.zip",
                 "reference": null,
                 "shasum": null
             },
             "require": {
                 "drupal/core": "8.*",
-                "drupal/ctools": "8.*",
+                "drupal/ctools": ">=8.3.0-alpha21",
                 "drupal/layout_plugin": "8.*"
             },
             "replace": {
                 "drupal/panels_ipe": "self.version"
             },
             "suggest": {
-                "drupal/core": "Required by drupal/panels_ipe",
-                "drupal/page_manager": "Required by drupal/panels_ipe"
+                "drupal/core": "Required by drupal/panels_ipe"
             },
             "type": "drupal-module",
             "extra": {
@@ -3410,16 +3397,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.0.1",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "49ff736bd5d41f45240cec77b44967d76e0c3d25"
+                "reference": "1289d16209491b584839022f29257ad859b8532d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/49ff736bd5d41f45240cec77b44967d76e0c3d25",
-                "reference": "49ff736bd5d41f45240cec77b44967d76e0c3d25",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/1289d16209491b584839022f29257ad859b8532d",
+                "reference": "1289d16209491b584839022f29257ad859b8532d",
                 "shasum": ""
             },
             "require": {
@@ -3431,7 +3418,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "1.1-dev"
                 }
             },
             "autoload": {
@@ -3465,7 +3452,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2015-11-20 09:19:13"
+            "time": "2016-01-20 09:13:37"
         },
         {
             "name": "symfony/process",
@@ -3956,16 +3943,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.23.3",
+            "version": "v1.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "ae53fc2c312fdee63773b75cb570304f85388b08"
+                "reference": "3e5aa30ebfbafd5951fb1b01e338e1800ce7e0e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/ae53fc2c312fdee63773b75cb570304f85388b08",
-                "reference": "ae53fc2c312fdee63773b75cb570304f85388b08",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/3e5aa30ebfbafd5951fb1b01e338e1800ce7e0e8",
+                "reference": "3e5aa30ebfbafd5951fb1b01e338e1800ce7e0e8",
                 "shasum": ""
             },
             "require": {
@@ -3978,7 +3965,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.23-dev"
+                    "dev-master": "1.24-dev"
                 }
             },
             "autoload": {
@@ -4013,7 +4000,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2016-01-11 14:02:19"
+            "time": "2016-01-25 21:22:18"
         },
         {
             "name": "zendframework/zend-diactoros",
@@ -4533,6 +4520,7 @@
     "aliases": [],
     "minimum-stability": "alpha",
     "stability-flags": {
+        "drupal/bootstrap": 20,
         "drupal/core": 5,
         "drupal/date": 20,
         "drupal/diff": 20,

@@ -37,7 +37,8 @@
     "minimum-stability": "alpha",
     "prefer-stable": true,
     "require": {
-        "composer/installers": "^1.0.20",
+        "composer/installers": "^1.0",
+        "drupal/bootstrap": "dev-8.x-3.x",
         "drupal/config_readonly": "8.1.*",
         "drupal/config_update": "8.1.*",
         "drupal/console": "~0.9.0",
@@ -48,7 +49,6 @@
         "drupal/features": "8.3.*",
         "drupal/feeds": "8.3.*@dev",
         "drupal/job_scheduler": "8.2.*@dev",
-        "drupal/omega": "8.5.*",
         "drupal/panels": "8.3.*",
         "drupal/token": "8.1.*@dev",
         "drush/drush": "8.*",
