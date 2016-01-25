@@ -1,13 +1,15 @@
-uuid: b664771d-998d-45cd-a406-6d318a4847b0
+uuid: ba746849-ebd4-47b1-b200-f8d38191277e
 langcode: en
 status: true
 dependencies:
   theme:
-    - bartik
-id: bartik_local_tasks
-theme: bartik
-region: content
-weight: -4
+    - bootstrap
+_core:
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: bootstrap_local_tasks
+theme: bootstrap
+region: header
+weight: 10
 provider: null
 plugin: local_tasks_block
 settings:

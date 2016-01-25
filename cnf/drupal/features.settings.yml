@@ -1,7 +1,0 @@
-export:
-  folder: custom
-langcode: en
-profile:
-  machine_name: site_install
-  name: Site-Install
-  description: ''
