@@ -4,7 +4,8 @@ dependencies:
   config:
     - field.storage.node.field_dam
     - node.type.mating_record
-    - node.type.rabbit
+_core:
+  default_config_hash: '-yvwA6n8yxNdCf5-VfgniI5x1s7CVjNkAEDpf1Iq8u4'
 id: node.mating_record.field_dam
 field_name: field_dam
 entity_type: node
@@ -16,11 +17,10 @@ translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
-  handler: 'default:node'
+  handler: views
   handler_settings:
-    target_bundles:
-      rabbit: rabbit
-    sort:
-      field: title
-      direction: ASC
+    view:
+      view_name: rabbits_entity_reference
+      display_name: female_rabbits_entity_reference
+      arguments: {  }
 field_type: entity_reference

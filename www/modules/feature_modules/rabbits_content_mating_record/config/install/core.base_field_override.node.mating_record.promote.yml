@@ -3,6 +3,8 @@ status: true
 dependencies:
   config:
     - node.type.mating_record
+_core:
+  default_config_hash: 1oge4koN-oASuAhNtWbkQFbsBlJeXG_jXbVM-Pxi7z0
 id: node.mating_record.promote
 field_name: promote
 entity_type: node

@@ -1,0 +1,43 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.mating_record.body
+    - field.field.node.mating_record.field_dam
+    - field.field.node.mating_record.field_date_bred
+    - field.field.node.mating_record.field_kindled_date
+    - field.field.node.mating_record.field_kits_alive
+    - field.field.node.mating_record.field_kits_dead
+    - field.field.node.mating_record.field_nestbox_date
+    - field.field.node.mating_record.field_palpate_date
+    - field.field.node.mating_record.field_sire
+    - node.type.mating_record
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: 8ZuICRmlhniiZxXvvT6qWM-3A9_w-gRGJc4VUpucUY4
+id: node.mating_record.teaser
+targetEntityType: node
+bundle: mating_record
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden:
+  field_dam: true
+  field_date_bred: true
+  field_kindled_date: true
+  field_kits_alive: true
+  field_kits_dead: true
+  field_nestbox_date: true
+  field_palpate_date: true
+  field_sire: true

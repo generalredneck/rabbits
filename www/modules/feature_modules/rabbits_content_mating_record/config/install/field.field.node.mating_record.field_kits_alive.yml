@@ -2,13 +2,15 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_kits_dead
+    - field.storage.node.field_kits_alive
     - node.type.mating_record
-id: node.mating_record.field_kits_dead
-field_name: field_kits_dead
+_core:
+  default_config_hash: kZrmsS9p8VV7xrhywIRbKn6fgMoU48cpNraoTbrHeGc
+id: node.mating_record.field_kits_alive
+field_name: field_kits_alive
 entity_type: node
 bundle: mating_record
-label: 'Kits Dead'
+label: 'Kits Alive'
 description: ''
 required: false
 translatable: false

@@ -14,5 +14,5 @@ dependencies:
   - options
   - ckeditor
   - rabbits_content_rabbit
-  - mating_record
+  - rabbits_content_mating_record
   - rabbits_pedigree

@@ -6,6 +6,8 @@ dependencies:
     - node.type.mating_record
   module:
     - datetime
+_core:
+  default_config_hash: t75Ci_k6UTx2EuBZ2bapwTrYDwkj6Gy2Wnt8b1G5Vqg
 id: node.mating_record.field_kindled_date
 field_name: field_kindled_date
 entity_type: node

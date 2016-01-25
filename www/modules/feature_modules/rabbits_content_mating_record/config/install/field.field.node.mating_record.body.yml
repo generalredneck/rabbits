@@ -6,6 +6,8 @@ dependencies:
     - node.type.mating_record
   module:
     - text
+_core:
+  default_config_hash: 9wpBr47XOCPPuSg9lCL5-TxgjB6RcDNmnrX8AInLpgw
 id: node.mating_record.body
 field_name: body
 entity_type: node

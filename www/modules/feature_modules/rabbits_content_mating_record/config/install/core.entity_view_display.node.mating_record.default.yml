@@ -16,6 +16,8 @@ dependencies:
     - datetime
     - text
     - user
+_core:
+  default_config_hash: Hxow42dhfkr-h-J_E05HrIFKNEix56Tk9Q2aj0MoP7I
 id: node.mating_record.default
 targetEntityType: node
 bundle: mating_record

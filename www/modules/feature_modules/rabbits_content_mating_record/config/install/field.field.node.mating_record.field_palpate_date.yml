@@ -6,6 +6,8 @@ dependencies:
     - node.type.mating_record
   module:
     - datetime
+_core:
+  default_config_hash: R4O8Uadw2Pbp88qdeeXxJemenjx_RuEroZEj35PiSVk
 id: node.mating_record.field_palpate_date
 field_name: field_palpate_date
 entity_type: node

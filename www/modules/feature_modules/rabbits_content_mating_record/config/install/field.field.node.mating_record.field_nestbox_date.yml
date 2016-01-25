@@ -6,6 +6,8 @@ dependencies:
     - node.type.mating_record
   module:
     - datetime
+_core:
+  default_config_hash: lgwd2sJKNVEh6sF1AoCuPcsniBT-wEyeeHht9ydwRMs
 id: node.mating_record.field_nestbox_date
 field_name: field_nestbox_date
 entity_type: node

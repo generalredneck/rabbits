@@ -1,6 +1,8 @@
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: eWifiKQtlb4avlNGVDK36b-GMVrtrrsw7IcueO_cZvU
 name: 'Mating Record'
 type: mating_record
 description: ''

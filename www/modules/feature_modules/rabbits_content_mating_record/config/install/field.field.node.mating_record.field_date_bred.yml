@@ -6,6 +6,8 @@ dependencies:
     - node.type.mating_record
   module:
     - datetime
+_core:
+  default_config_hash: 6PgQy2jFc0EsvYGxNX-l8GSLS_ndjGEYGy143ABxBDo
 id: node.mating_record.field_date_bred
 field_name: field_date_bred
 entity_type: node
