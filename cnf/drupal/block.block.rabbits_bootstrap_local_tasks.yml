@@ -1,0 +1,22 @@
+uuid: 4acef760-2fb3-430c-b32f-470859e48913
+langcode: en
+status: true
+dependencies:
+  theme:
+    - rabbits_bootstrap
+_core:
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: rabbits_bootstrap_local_tasks
+theme: rabbits_bootstrap
+region: header
+weight: 10
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

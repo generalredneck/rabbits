@@ -1,0 +1,22 @@
+uuid: fad781d5-fb2b-45d7-bb00-e26d804ff15a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - rabbits_bootstrap
+_core:
+  default_config_hash: 9RnnTUBcn0WRWXfrGOnId2H0Q31uQUeu_F5TnDxl2yg
+id: rabbits_bootstrap_messages
+theme: rabbits_bootstrap
+region: header
+weight: -50
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: a9d8f868-ac2a-466e-b81a-26f5654edc0d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - rabbits_bootstrap
+_core:
+  default_config_hash: ffxthelqQF8xcr4GTG4HlaNNsluiHftN0pujmQpW0bQ
+id: rabbits_bootstrap_local_actions
+theme: rabbits_bootstrap
+region: header
+weight: 20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }
