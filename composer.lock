@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1c35bc60a9b3f55fa107948b9ef9d5ee",
-    "content-hash": "6571384ee88dd4099b104ed44f7641a1",
+    "hash": "0837e1bbfbf4559a0787b87fb6c2ce0a",
+    "content-hash": "5127b69369e590475e5f2a1477cc89b3",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1410,6 +1410,29 @@
             "description": "Provides a user interface for the Token API and some missing core tokens.",
             "homepage": "https://www.drupal.org/project/token",
             "time": "2016-01-21 08:02:24"
+        },
+        {
+            "name": "drupal/views_bootstrap",
+            "version": "dev-8.x-3.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/views_bootstrap",
+                "reference": "2014a0604e3147cf478dbd2dc61d7fddc92737ac"
+            },
+            "require": {
+                "drupal/core": "8.*",
+                "drupal/views": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-3.x": "8.3.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "description": "Bootstrap Components.",
+            "homepage": "https://www.drupal.org/project/views_bootstrap",
+            "time": "2015-12-06 00:28:01"
         },
         {
             "name": "drush/drush",
@@ -4528,6 +4551,7 @@
         "drupal/feeds": 20,
         "drupal/job_scheduler": 20,
         "drupal/token": 20,
+        "drupal/views_bootstrap": 20,
         "drupal/migrate_source_csv": 20,
         "drupal/config_devel": 10,
         "drupal/devel": 20,

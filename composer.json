@@ -51,6 +51,7 @@
         "drupal/job_scheduler": "8.2.*@dev",
         "drupal/panels": "8.3.*",
         "drupal/token": "8.1.*@dev",
+        "drupal/views_bootstrap": "dev-8.x-3.x",
         "drush/drush": "8.*",
         "drupal/migrate_plus": "8.*",
         "drupal/migrate_tools": "8.*",
