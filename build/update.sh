@@ -26,5 +26,8 @@ fi
 echo "Clearing caches one last time.";
 $drush cr
 
+echo "Importing Breeds"
+$drush mi --update --force breed_term
+
 chmod -R +w "$base/cnf"
 chmod -R +w "$base/www/sites/default"
