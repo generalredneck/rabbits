@@ -3,6 +3,8 @@ status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: PQf_KvrmEIMuq3RIbLTme_BEIufDHnPMq_6YRfuR41c
 id: node.field_kits_dead
 field_name: field_kits_dead
 entity_type: node

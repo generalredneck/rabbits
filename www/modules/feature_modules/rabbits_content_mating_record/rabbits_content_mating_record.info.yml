@@ -8,7 +8,6 @@ dependencies:
   - rabbits_content_fields
   - rabbits_content_mating_record
   - rabbits_content_rabbit
-  - rabbits_views
   - text
   - user
 features: true

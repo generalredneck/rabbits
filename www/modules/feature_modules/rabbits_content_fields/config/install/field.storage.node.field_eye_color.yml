@@ -5,7 +5,7 @@ dependencies:
     - node
     - taxonomy
 _core:
-  default_config_hash: UuZpLwj2Yf5F2QOXOJn80bHnxkL6Kk57NwNpbzkCNBE
+  default_config_hash: ZSbWZjwJuU06DktAL4f4S-0dMJBybO5Qvo0jmmhaG4Y
 id: node.field_eye_color
 field_name: field_eye_color
 entity_type: node

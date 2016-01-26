@@ -4,6 +4,8 @@ dependencies:
   module:
     - datetime
     - node
+_core:
+  default_config_hash: ly3HUPUo5WFMfq9RkfNUdR9TG2XaniUZ1pAPfQo2QjY
 id: node.field_date_birth
 field_name: field_date_birth
 entity_type: node

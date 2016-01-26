@@ -4,7 +4,7 @@ dependencies:
   module:
     - node
 _core:
-  default_config_hash: jhwYzKlmoyvCCUQiTZuI3Npl7kMgQMUqO7w_k68AVZc
+  default_config_hash: '-SVSSeUu0uwRQplIkzxBQ-rP0a4Nlhw78r338QWrhEM'
 id: node.field_sire
 field_name: field_sire
 entity_type: node

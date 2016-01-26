@@ -1,0 +1,8 @@
+name: Rabbits Mating Record
+description: Module Handling the custom pages for mating records.
+package: Rabbits
+type: module
+core: 8.x
+
+dependencies:
+  - rabbits_content_mating_record

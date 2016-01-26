@@ -4,6 +4,8 @@ dependencies:
   module:
     - datetime
     - node
+_core:
+  default_config_hash: 3_DNlBC4WtevA4q6Q_pmc7VtK3ohAoioKJuFHKtTSmQ
 id: node.field_kindled_date
 field_name: field_kindled_date
 entity_type: node

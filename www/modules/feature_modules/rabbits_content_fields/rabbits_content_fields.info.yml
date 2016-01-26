@@ -36,6 +36,12 @@ features:
     - field.field.node.mating_record.field_sire
     - field.field.node.rabbit.field_date_birth
     - field.field.node.rabbit.field_date_death
+    - field.field.node.mating_record.field_date_bred
+    - field.field.node.mating_record.field_kindled_date
+    - field.field.node.mating_record.field_kits_alive
+    - field.field.node.mating_record.field_kits_dead
+    - field.field.node.mating_record.field_nestbox_date
+    - field.field.node.mating_record.field_palpate_date
   required:
     - field.storage.node.field_date_birth
     - field.storage.node.field_date_death
@@ -45,3 +51,4 @@ features:
     - field.storage.node.field_kits_dead
     - field.storage.node.field_nestbox_date
     - field.storage.node.field_palpate_date
+    - field.storage.node.field_litter_record

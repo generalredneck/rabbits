@@ -9,10 +9,11 @@ dependencies:
   - features
   - taxonomy
   - views
+  - views_bootstrap
   - datetime
   - image
   - options
   - ckeditor
   - rabbits_content_rabbit
-  - rabbits_content_mating_record
+  - rabbits_mating_record
   - rabbits_pedigree

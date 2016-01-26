@@ -9,7 +9,6 @@ dependencies:
   - rabbits_content_fields
   - rabbits_content_rabbit
   - rabbits_taxonomy
-  - rabbits_views
   - text
   - user
 features:
