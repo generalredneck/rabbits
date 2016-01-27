@@ -1,5 +1,5 @@
 Vagrant.configure("2") do |config|
-	config.hostmanager.enabled = true
+  config.hostmanager.enabled = true
   config.hostmanager.manage_host = true
 
   # tunables
@@ -16,7 +16,7 @@ Vagrant.configure("2") do |config|
   path = "/var/www/sites/#{project}.dev"
 
   config.vm.synced_folder ".", "/vagrant", :disabled => true
-  config.vm.synced_folder ".", path, type: "smb",  :mount_options => ["file_mode=0777", "dir_mode=0777"]
+  config.vm.synced_folder ".", path, type: "nfs"
   config.vm.hostname = "#{project}.dev"
 
   config.ssh.insert_key = false
