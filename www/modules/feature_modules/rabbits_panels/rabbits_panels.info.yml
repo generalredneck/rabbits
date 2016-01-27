@@ -1,0 +1,9 @@
+name: 'Rabbits Panels'
+type: module
+core: 8.x
+dependencies:
+  - page_manager
+features:
+  required:
+    - page_manager.page.node_view
+    - page_manager.page_variant.rabbits

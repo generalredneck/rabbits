@@ -1,0 +1,48 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.node_view
+  module:
+    - ctools
+    - node
+    - panels
+id: rabbits
+label: Rabbits
+variant: panels_variant
+variant_settings:
+  blocks:
+    157e910f-7f1a-4eb7-b000-a8dfd2491455:
+      id: 'entity_view:node'
+      label: 'Entity view (Content)'
+      provider: ctools
+      label_display: '0'
+      view_mode: full
+      region: middle
+      weight: 0
+      uuid: 157e910f-7f1a-4eb7-b000-a8dfd2491455
+      context_mapping:
+        entity: node
+  id: panels_variant
+  uuid: c27f4aa1-199b-4bf3-9007-7c7776829626
+  label: null
+  weight: 0
+  layout: onecol
+  layout_settings: {  }
+  page_title: '[node:title]'
+  storage_type: page_manager
+  storage_id: rabbits
+  builder: standard
+page: node_view
+weight: 0
+selection_criteria:
+  b3baee54-a615-48e4-a04c-76c66e06d3ec:
+    id: node_type
+    bundles:
+      rabbit: rabbit
+    negate: false
+    context_mapping:
+      node: node
+    uuid: b3baee54-a615-48e4-a04c-76c66e06d3ec
+selection_logic: and
+static_context: {  }
