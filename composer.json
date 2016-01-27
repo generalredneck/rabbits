@@ -50,6 +50,8 @@
         "drupal/feeds": "8.3.*@dev",
         "drupal/job_scheduler": "8.2.*@dev",
         "drupal/panels": "8.3.*",
+        "drupal/page_manager": "8.1.*@alpha",
+        "drupal/pathauto": "8.1.*@alpha",
         "drupal/token": "8.1.*@dev",
         "drupal/views_bootstrap": "dev-8.x-3.x",
         "drush/drush": "8.*",

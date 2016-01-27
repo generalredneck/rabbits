@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0837e1bbfbf4559a0787b87fb6c2ce0a",
-    "content-hash": "5127b69369e590475e5f2a1477cc89b3",
+    "hash": "c5ea6726fa52c12b879b7837ac75cc6f",
+    "content-hash": "331ea0d1fb4254c78382855a75e89ee9",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -71,20 +71,20 @@
         },
         {
             "name": "composer/installers",
-            "version": "v1.0.22",
+            "version": "v1.0.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "bd9b14f094c89c8b5804a4e41edeb7853bb85046"
+                "reference": "6213d900e92647831f7a406d5c530ea1f3d4360e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/bd9b14f094c89c8b5804a4e41edeb7853bb85046",
-                "reference": "bd9b14f094c89c8b5804a4e41edeb7853bb85046",
+                "url": "https://api.github.com/repos/composer/installers/zipball/6213d900e92647831f7a406d5c530ea1f3d4360e",
+                "reference": "6213d900e92647831f7a406d5c530ea1f3d4360e",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "1.0.0"
+                "composer-plugin-api": "^1.0"
             },
             "replace": {
                 "roundcube/plugin-installer": "*",
@@ -165,7 +165,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2015-10-29 23:28:48"
+            "time": "2016-01-27 12:54:22"
         },
         {
             "name": "composer/semver",
@@ -1346,6 +1346,46 @@
             "homepage": "https://www.drupal.org/project/migrate_tools"
         },
         {
+            "name": "drupal/page_manager",
+            "version": "8.1.0-alpha22",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/page_manager",
+                "reference": "24a8d57571c9fa792178371dcb43219024a3c34c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/page_manager-8.x-1.0-alpha22.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/block": "8.*",
+                "drupal/core": "8.*",
+                "drupal/ctools": "8.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Tim Plunkett",
+                    "homepage": "http://winstondodger.com",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Provides a way to place blocks on a custom page.",
+            "homepage": "https://www.drupal.org/project/page_manager",
+            "time": "2016-01-19 20:15:05"
+        },
+        {
             "name": "drupal/panels",
             "version": "8.3.0-beta2",
             "source": {
@@ -1379,6 +1419,40 @@
             "notification-url": "https://packagist.drupal-composer.org/downloads/",
             "description": "Core Panels display functions; provides no external UI, at least one other Panels module should be enabled.",
             "homepage": "https://www.drupal.org/project/panels"
+        },
+        {
+            "name": "drupal/pathauto",
+            "version": "8.1.0-alpha1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/pathauto",
+                "reference": "616e72abe5dee822444b67e3754b9f7652447540"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/pathauto-8.x-1.0-alpha1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/core": "8.*",
+                "drupal/ctools": "~8.3.0-alpha21",
+                "drupal/path": "8.*",
+                "drupal/token": "~8.1.0-alpha2"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-8.x-1.x": "8.1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.drupal-composer.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Provides a mechanism for modules to automatically generate aliases for the content they manage.",
+            "homepage": "https://www.drupal.org/project/pathauto",
+            "time": "2016-01-21 21:50:23"
         },
         {
             "name": "drupal/token",
@@ -4550,6 +4624,8 @@
         "drupal/eform": 20,
         "drupal/feeds": 20,
         "drupal/job_scheduler": 20,
+        "drupal/page_manager": 15,
+        "drupal/pathauto": 15,
         "drupal/token": 20,
         "drupal/views_bootstrap": 20,
         "drupal/migrate_source_csv": 20,
