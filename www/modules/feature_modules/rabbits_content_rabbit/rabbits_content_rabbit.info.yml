@@ -2,6 +2,7 @@ name: 'Rabbits Content Rabbit'
 type: module
 core: 8.x
 dependencies:
+  - ctools
   - datetime
   - image
   - node
@@ -14,3 +15,5 @@ dependencies:
 features:
   excluded:
     - core.entity_view_display.node.rabbit.pedigree
+  required:
+    - pathauto.pattern.rabbits_pattern

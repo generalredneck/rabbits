@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: CYawEkUDZeVlTZD-F_phH7faVWgaCP9o9e7FFAvmDBU
+  default_config_hash: 6LYhU-eDRPzapBwbScOnZDJXVYqEIgLXNsfOQDyVVP4
 name: Rabbit
 type: rabbit
 description: ''

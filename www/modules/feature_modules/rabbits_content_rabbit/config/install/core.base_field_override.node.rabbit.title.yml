@@ -4,7 +4,7 @@ dependencies:
   config:
     - node.type.rabbit
 _core:
-  default_config_hash: wysQgAmXriRhIekrRlAiNIlTQodsxHqSquVGhMjCWfg
+  default_config_hash: St58qqHzc2TXQwOFrknuFSwPLeoexcsP1eE9fudO0Qw
 id: node.rabbit.title
 field_name: title
 entity_type: node

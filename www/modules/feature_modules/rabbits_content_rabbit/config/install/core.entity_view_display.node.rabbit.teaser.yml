@@ -22,7 +22,7 @@ dependencies:
     - text
     - user
 _core:
-  default_config_hash: nOYvqNxbxXvaiw-anIKSxleeXBjmQXxKzezYVBvQxlE
+  default_config_hash: qisANhpmx64JDtNLAwi0pDYOkrT0n9605WRrSpZioxM
 id: node.rabbit.teaser
 targetEntityType: node
 bundle: rabbit

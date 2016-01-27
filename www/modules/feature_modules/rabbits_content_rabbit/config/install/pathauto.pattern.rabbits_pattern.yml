@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - node
+id: rabbits_pattern
+label: 'Rabbits Pattern'
+type: 'canonical_entities:node'
+pattern: 'rabbits/[node:nid]'
+selection_criteria:
+  7b5b0884-b8be-4817-a700-bb9fd1f56019:
+    id: 'entity_bundle:node'
+    bundles:
+      rabbit: rabbit
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 7b5b0884-b8be-4817-a700-bb9fd1f56019
+selection_logic: and
+weight: -5
+context_definitions: {  }

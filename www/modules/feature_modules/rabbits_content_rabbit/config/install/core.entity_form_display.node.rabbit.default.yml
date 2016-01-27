@@ -22,7 +22,7 @@ dependencies:
     - image
     - text
 _core:
-  default_config_hash: qyWVpWwtNgc47eci8bd6VRjCCm6aWuMt95Kf5zQ1cBM
+  default_config_hash: QfNjEc_sk-5OV0yy8pCxi1NwMvLb41Zz0nZvQPfV-w8
 id: node.rabbit.default
 targetEntityType: node
 bundle: rabbit

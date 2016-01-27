@@ -7,7 +7,7 @@ dependencies:
   module:
     - text
 _core:
-  default_config_hash: d0lr75Odkw_bVMVbANHssA1v_z-K7Y4csRw49JYk0rM
+  default_config_hash: AsOKq5nqlXH2n1dN2KrfNKCLp29322GTAV8IhDoQm-o
 id: node.rabbit.body
 field_name: body
 entity_type: node

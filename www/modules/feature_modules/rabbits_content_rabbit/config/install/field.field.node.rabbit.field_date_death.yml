@@ -6,6 +6,8 @@ dependencies:
     - node.type.rabbit
   module:
     - datetime
+_core:
+  default_config_hash: V5cF_q4T7Iy7sIQfcms75ezxuh-l-AhVszVQI0tUFf8
 id: node.rabbit.field_date_death
 field_name: field_date_death
 entity_type: node

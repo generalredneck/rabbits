@@ -5,7 +5,7 @@ dependencies:
     - field.storage.node.field_ear_tattoo_number
     - node.type.rabbit
 _core:
-  default_config_hash: JVTy3lQrkf7H5nLmlJFueMmSeY4lsjDqOyvjI5Tb3aE
+  default_config_hash: ywdKkPOPjBlFGOpsU5ll-yej2v9VsvK1sMuPH9VMIXc
 id: node.rabbit.field_ear_tattoo_number
 field_name: field_ear_tattoo_number
 entity_type: node

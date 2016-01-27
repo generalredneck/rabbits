@@ -6,7 +6,7 @@ dependencies:
     - node.type.rabbit
     - taxonomy.vocabulary.eye_color
 _core:
-  default_config_hash: g11CWbKP_h3cdeHVH1FXIuIZ6sV9sk7urfG4tclHN34
+  default_config_hash: PdYdAyAUUudqvHyxh4p2I_lavz7J-h1nSlVcM6AFMR4
 id: node.rabbit.field_eye_color
 field_name: field_eye_color
 entity_type: node

@@ -7,7 +7,7 @@ dependencies:
   module:
     - image
 _core:
-  default_config_hash: 9M68QPQ-X97dFse5HpT7agARuhb5FGJQgCZP4lw1dHA
+  default_config_hash: GzWyVaWM09Nx-6QhWuOpY6k8aFycKrOgsHvDw_QGdZY
 id: node.rabbit.field_image
 field_name: field_image
 entity_type: node

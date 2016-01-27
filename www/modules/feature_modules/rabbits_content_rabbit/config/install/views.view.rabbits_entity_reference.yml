@@ -7,6 +7,8 @@ dependencies:
     - node
     - options
     - user
+_core:
+  default_config_hash: hb-3kvaFj1eS7ARrgALpLucbeasmN96OicMMAI1P6cs
 id: rabbits_entity_reference
 label: 'Rabbits Entity Reference'
 module: views

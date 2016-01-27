@@ -6,7 +6,7 @@ dependencies:
     - node.type.rabbit
     - taxonomy.vocabulary.breeds
 _core:
-  default_config_hash: dGaGgsj54QdEYhmwzNF2IRtrA981q86wKBf7QGjpno8
+  default_config_hash: RbMnfFE6x0ncA77CX2aBTvyvoXSLnbX1QrJAmWxA7B0
 id: node.rabbit.field_breed
 field_name: field_breed
 entity_type: node

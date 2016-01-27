@@ -6,7 +6,7 @@ dependencies:
     - node.type.rabbit
     - taxonomy.vocabulary.ear_type
 _core:
-  default_config_hash: 0ehmM5rffADLg-3PMceZR3ZdnZaF2-pKBKczLhK07VY
+  default_config_hash: FgI1hEaiYt_tepW4OWJftUjlnpJFYgBM1iAxoqenjqI
 id: node.rabbit.field_ear_type
 field_name: field_ear_type
 entity_type: node

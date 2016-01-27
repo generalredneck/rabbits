@@ -6,6 +6,8 @@ dependencies:
     - node.type.rabbit
   module:
     - datetime
+_core:
+  default_config_hash: KCv_NledK_hJoVDCfU3nWPlMmUIepAZfk97UhPhZ8rE
 id: node.rabbit.field_date_birth
 field_name: field_date_birth
 entity_type: node
