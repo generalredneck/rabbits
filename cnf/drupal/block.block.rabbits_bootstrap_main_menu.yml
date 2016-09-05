@@ -1,4 +1,4 @@
-uuid: b83a5eec-e55b-4a13-8900-ef75e6779d38
+uuid: f6d6e369-3f81-470b-b4d2-a5c43c3be06f
 langcode: en
 status: true
 dependencies:
@@ -13,7 +13,7 @@ _core:
 id: rabbits_bootstrap_main_menu
 theme: rabbits_bootstrap
 region: navigation_collapsible
-weight: 10
+weight: -5
 provider: null
 plugin: 'system_menu_block:main'
 settings:

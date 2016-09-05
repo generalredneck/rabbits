@@ -1,0 +1,21 @@
+uuid: 696db639-015d-471b-be00-dda93ffddbb3
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: vR6F5dCQn0MbC9EH_iN_6lfJLipnpctL0E-PmI40LkQ
+id: node.field_dam
+field_name: field_dam
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

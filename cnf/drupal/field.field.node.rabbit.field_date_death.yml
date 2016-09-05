@@ -1,0 +1,21 @@
+uuid: 5e067288-8f35-4c72-a800-cfe1eb835c0e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_death
+    - node.type.rabbit
+  module:
+    - datetime
+id: node.rabbit.field_date_death
+field_name: field_date_death
+entity_type: node
+bundle: rabbit
+label: 'Date of Death'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

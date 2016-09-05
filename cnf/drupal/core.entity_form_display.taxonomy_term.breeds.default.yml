@@ -1,0 +1,115 @@
+uuid: 26b23eda-cec2-433e-aa00-b9bcec6addff
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.breeds.field_arba_accepted
+    - field.field.taxonomy_term.breeds.field_brc_accepted
+    - field.field.taxonomy_term.breeds.field_breed_image
+    - field.field.taxonomy_term.breeds.field_ear_type
+    - field.field.taxonomy_term.breeds.field_eye_color
+    - field.field.taxonomy_term.breeds.field_fur_color
+    - field.field.taxonomy_term.breeds.field_fur_markings
+    - field.field.taxonomy_term.breeds.field_fur_type
+    - field.field.taxonomy_term.breeds.field_origin
+    - field.field.taxonomy_term.breeds.field_size
+    - image.style.thumbnail
+    - taxonomy.vocabulary.breeds
+  module:
+    - image
+    - text
+_core:
+  default_config_hash: 3Uktw4qw6hLQIZDGT91nLblKYaFT4l8eCPekJ1hLYxs
+id: taxonomy_term.breeds.default
+targetEntityType: taxonomy_term
+bundle: breeds
+mode: default
+content:
+  description:
+    type: text_textarea
+    weight: -99
+    settings:
+      placeholder: ''
+      rows: 5
+    third_party_settings: {  }
+  field_arba_accepted:
+    weight: -96
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+  field_brc_accepted:
+    weight: -95
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+  field_breed_image:
+    weight: -89
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+  field_ear_type:
+    weight: -91
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete_tags
+  field_eye_color:
+    weight: -90
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete_tags
+  field_fur_color:
+    weight: -93
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete_tags
+  field_fur_markings:
+    weight: -92
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete_tags
+  field_fur_type:
+    weight: -94
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete_tags
+  field_origin:
+    weight: -98
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  field_size:
+    weight: -97
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  name:
+    type: string_textfield
+    weight: -100
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

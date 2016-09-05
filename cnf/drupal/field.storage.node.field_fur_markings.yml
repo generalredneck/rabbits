@@ -1,0 +1,22 @@
+uuid: 7c1b5e4e-e717-4847-ba03-3d30c530f220
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+_core:
+  default_config_hash: cEV7jcpUsUoRywzSM7MndSgZRY0SYdDk-GX-D5oVrfw
+id: node.field_fur_markings
+field_name: field_fur_markings
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

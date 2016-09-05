@@ -1,0 +1,11 @@
+uuid: c4fc6a16-0731-4a7b-8f00-f229190ea885
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: NVoefwu4TmUHVcEcBAC0X75tp9cWz9BxVgTTSJb9l5o
+name: 'Marking Style'
+vid: marking_style
+description: ''
+hierarchy: 0
+weight: 0

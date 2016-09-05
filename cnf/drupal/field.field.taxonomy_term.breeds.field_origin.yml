@@ -1,0 +1,21 @@
+uuid: 96616252-dfec-4a45-8406-6d6f836a3464
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_origin
+    - taxonomy.vocabulary.breeds
+_core:
+  default_config_hash: IIFD1SyouJiXXt5LMhOfQIavnXFkH6y0XYzNu4c4Eio
+id: taxonomy_term.breeds.field_origin
+field_name: field_origin
+entity_type: taxonomy_term
+bundle: breeds
+label: Origin
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

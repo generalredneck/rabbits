@@ -1,0 +1,11 @@
+uuid: 831fadd2-ac9d-4561-875e-9418ed6748fe
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 9GUgaqDB5Q_o2XtySjzxpuxqFhpWjHzNSBpcyqje6rU
+name: 'Eye Color'
+vid: eye_color
+description: ''
+hierarchy: 0
+weight: 0

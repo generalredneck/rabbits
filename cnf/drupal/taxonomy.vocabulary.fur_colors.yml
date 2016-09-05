@@ -1,0 +1,11 @@
+uuid: 94afc4c3-e177-47b7-a600-faf4b0801c0b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 8QGhrUgbW0LAiexJVMVS5C7DwWPw1wUIqC_OaqoI_zY
+name: 'Fur Colors'
+vid: fur_colors
+description: ''
+hierarchy: 0
+weight: 0

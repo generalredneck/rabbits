@@ -1,0 +1,11 @@
+uuid: b8801204-751c-4077-9f00-c9ab813a6c2a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: AqzeOKONQKNxhPBcw7zc9v8qZkaquNAHGsWOSwKk1sE
+name: Breeds
+vid: breeds
+description: ''
+hierarchy: 0
+weight: 0

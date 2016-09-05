@@ -1,0 +1,25 @@
+uuid: f57d3159-437b-406f-8900-0f9c70516edf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_arba_accepted
+    - taxonomy.vocabulary.breeds
+_core:
+  default_config_hash: Tt9uG4mD-MKO8oSRHqjeLLyTLTZX8OLgGCeyFc80Mts
+id: taxonomy_term.breeds.field_arba_accepted
+field_name: field_arba_accepted
+entity_type: taxonomy_term
+bundle: breeds
+label: 'ARBA Accepted'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

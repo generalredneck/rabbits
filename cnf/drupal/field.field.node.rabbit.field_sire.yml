@@ -1,0 +1,28 @@
+uuid: 905deab6-b8c5-44dc-b146-70fade82ea36
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sire
+    - node.type.rabbit
+_core:
+  default_config_hash: '-Z_3OzexfZodBHM6CoRRRQ9NezVD3ajqYnVmU_ZeK0g'
+id: node.rabbit.field_sire
+field_name: field_sire
+entity_type: node
+bundle: rabbit
+label: Sire
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      rabbit: rabbit
+    sort:
+      field: title
+      direction: ASC
+field_type: entity_reference

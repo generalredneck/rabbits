@@ -1,0 +1,20 @@
+uuid: efe830c1-f052-4c34-9700-af2d19dd47e0
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+_core:
+  default_config_hash: O4SCthSz3Lp-PEyWFiNJKLlrhBCqH6iyFm5F_CGNS20
+id: taxonomy_term.field_brc_accepted
+field_name: field_brc_accepted
+entity_type: taxonomy_term
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

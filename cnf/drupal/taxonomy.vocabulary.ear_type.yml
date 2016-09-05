@@ -1,0 +1,11 @@
+uuid: f131a133-b5fb-422b-9701-1e78b416c8ba
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: IqT9PnoB5i-r5xfVNM1Ez-AaCWSAOiQcDeuM5ZZktXI
+name: 'Ear Type'
+vid: ear_type
+description: ''
+hierarchy: 0
+weight: 0

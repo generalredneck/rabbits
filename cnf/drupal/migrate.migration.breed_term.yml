@@ -1,0 +1,87 @@
+uuid: 045d156d-7762-414b-a600-b9dc61c6c70d
+langcode: en
+status: true
+dependencies:
+  module:
+    - migrate_source_csv
+    - taxonomy
+_core:
+  default_config_hash: Nmxhmct5Q15KAkyluCw7rUy1gQvRmDkZcKvM0r84wE4
+id: breed_term
+migration_tags:
+  - CSV
+  - Rabbits
+label: 'Rabbit Breed Taxomony Migration'
+source:
+  plugin: csv
+  path: 'public://csvs/breed_term.csv'
+  header_row_count: 1
+  keys:
+    - breed
+  column_names:
+    -
+      breed: 'Breed Name'
+    -
+      origin: Origin
+    -
+      size: Size
+    -
+      fur_type: 'Fur Type'
+    -
+      ear_type: 'Ear Type'
+    -
+      eye_color: 'Eye Color'
+    -
+      marking_style: 'Fur Markings'
+    -
+      fur_colors: 'Fur Color'
+    -
+      arba: 'ARBA Accepted'
+    -
+      brc: 'BRC Accepted'
+    -
+      image: Image
+process:
+  vid:
+    plugin: default_value
+    default_value: breeds
+  name: breed
+  field_origin: origin
+  field_size: size
+  field_arba_accepted:
+    plugin: static_map
+    source: arba
+    map:
+      'No': '0'
+      'Yes': '1'
+  field_brc_accepted:
+    plugin: static_map
+    source: brc
+    map:
+      'No': '0'
+      'Yes': '1'
+  field_ear_type:
+    plugin: skip_on_empty
+    method: process
+    source: ear_type
+  field_fur_color:
+    plugin: skip_on_empty
+    method: process
+    source: fur_colors
+  field_fur_markings:
+    plugin: skip_on_empty
+    method: process
+    source: marking_style
+  field_fur_type:
+    plugin: skip_on_empty
+    method: process
+    source: fur_type
+  field_eye_color:
+    plugin: skip_on_empty
+    method: process
+    source: eye_color
+destination:
+  plugin: 'entity:taxonomy_term'
+template: null
+migration_dependencies: {  }
+migration_group: null

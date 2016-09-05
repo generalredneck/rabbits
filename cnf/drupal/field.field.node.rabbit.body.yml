@@ -1,0 +1,24 @@
+uuid: b3067573-3239-4dac-a90c-1285ff2bb268
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.rabbit
+  module:
+    - text
+_core:
+  default_config_hash: d0lr75Odkw_bVMVbANHssA1v_z-K7Y4csRw49JYk0rM
+id: node.rabbit.body
+field_name: body
+entity_type: node
+bundle: rabbit
+label: Notes
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

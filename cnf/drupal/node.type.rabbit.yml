@@ -1,0 +1,13 @@
+uuid: c7fd800e-9630-4e29-8647-71d20bdfa6e6
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: CYawEkUDZeVlTZD-F_phH7faVWgaCP9o9e7FFAvmDBU
+name: Rabbit
+type: rabbit
+description: ''
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

@@ -1,0 +1,22 @@
+uuid: da1de24c-8148-4f73-9d07-7a4aab0a02bb
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+_core:
+  default_config_hash: lubdypXb_JwgH6wSNQ11zZhZnAHbGUxEOSrrT-9x1AA
+id: node.field_fur_type
+field_name: field_fur_type
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

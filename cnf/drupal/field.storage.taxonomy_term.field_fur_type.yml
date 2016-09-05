@@ -1,0 +1,21 @@
+uuid: 23f44b07-e09b-49df-9000-dbb99e0215b5
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+_core:
+  default_config_hash: kcoaSwsbYdQD20KjLRXX9r31_JdgrIyqJAll87Yc90U
+id: taxonomy_term.field_fur_type
+field_name: field_fur_type
+entity_type: taxonomy_term
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

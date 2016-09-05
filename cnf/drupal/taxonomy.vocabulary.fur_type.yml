@@ -1,0 +1,11 @@
+uuid: a7fc0731-2e95-48c7-b24b-754683b17629
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: LOTLqryBvwPUgwu36WsZ8fT3UCQn4httFY9eWwZ25FQ
+name: 'Fur Type'
+vid: fur_type
+description: ''
+hierarchy: 0
+weight: 0

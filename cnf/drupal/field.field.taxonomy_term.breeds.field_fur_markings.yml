@@ -1,0 +1,29 @@
+uuid: 5d8d90a8-a5b6-4363-a145-69f09b57baef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_fur_markings
+    - taxonomy.vocabulary.breeds
+    - taxonomy.vocabulary.marking_style
+_core:
+  default_config_hash: E5JX1_P3-P9csD242H7ii2jbr_twDjGqnoCZYGlg6fA
+id: taxonomy_term.breeds.field_fur_markings
+field_name: field_fur_markings
+entity_type: taxonomy_term
+bundle: breeds
+label: 'Fur Markings'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      marking_style: marking_style
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

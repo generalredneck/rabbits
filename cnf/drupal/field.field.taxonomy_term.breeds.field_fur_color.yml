@@ -1,0 +1,29 @@
+uuid: e9d6f13e-a51b-49a3-9312-189dcae4f294
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_fur_color
+    - taxonomy.vocabulary.breeds
+    - taxonomy.vocabulary.fur_colors
+_core:
+  default_config_hash: DkWDQXIlW6HFk42hhtKKSO_BKmoBI5MFOT_GdYbWMzg
+id: taxonomy_term.breeds.field_fur_color
+field_name: field_fur_color
+entity_type: taxonomy_term
+bundle: breeds
+label: 'Fur Color'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      fur_colors: fur_colors
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

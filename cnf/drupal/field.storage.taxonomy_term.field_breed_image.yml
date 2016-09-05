@@ -1,0 +1,32 @@
+uuid: f7b25e77-ebb6-4b83-8f05-5ece2f8ee82d
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - taxonomy
+_core:
+  default_config_hash: LJ7HXIk7tztMpBR3FWfviJMnxBu1gxSPG4Y_bbdH87M
+id: taxonomy_term.field_breed_image
+field_name: field_breed_image
+entity_type: taxonomy_term
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

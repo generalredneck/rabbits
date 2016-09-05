@@ -1,0 +1,20 @@
+uuid: 89986c66-5655-43f4-ae04-4f04cf3e0ff0
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.rabbit
+_core:
+  default_config_hash: wysQgAmXriRhIekrRlAiNIlTQodsxHqSquVGhMjCWfg
+id: node.rabbit.title
+field_name: title
+entity_type: node
+bundle: rabbit
+label: Name
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

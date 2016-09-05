@@ -1,0 +1,108 @@
+uuid: 7d7d9824-a3ef-49c8-ad00-c9d5ab9b13ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.breeds.field_arba_accepted
+    - field.field.taxonomy_term.breeds.field_brc_accepted
+    - field.field.taxonomy_term.breeds.field_breed_image
+    - field.field.taxonomy_term.breeds.field_ear_type
+    - field.field.taxonomy_term.breeds.field_eye_color
+    - field.field.taxonomy_term.breeds.field_fur_color
+    - field.field.taxonomy_term.breeds.field_fur_markings
+    - field.field.taxonomy_term.breeds.field_fur_type
+    - field.field.taxonomy_term.breeds.field_origin
+    - field.field.taxonomy_term.breeds.field_size
+    - taxonomy.vocabulary.breeds
+  module:
+    - image
+    - text
+_core:
+  default_config_hash: 1L_Y49HpVzLMHsQ5xO59oGeVnGTZIPVFHvqpApgQhEE
+id: taxonomy_term.breeds.default
+targetEntityType: taxonomy_term
+bundle: breeds
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+  field_arba_accepted:
+    weight: 4
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+  field_brc_accepted:
+    weight: 5
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+  field_breed_image:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_ear_type:
+    weight: 9
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_eye_color:
+    weight: 10
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_fur_color:
+    weight: 7
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_fur_markings:
+    weight: 8
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_fur_type:
+    weight: 6
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_origin:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_size:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+hidden: {  }

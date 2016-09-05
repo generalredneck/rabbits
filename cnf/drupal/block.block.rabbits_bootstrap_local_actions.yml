@@ -1,4 +1,4 @@
-uuid: a9d8f868-ac2a-466e-b81a-26f5654edc0d
+uuid: 4ee5edac-8348-4421-a148-d670e240325f
 langcode: en
 status: true
 dependencies:
@@ -9,7 +9,7 @@ _core:
 id: rabbits_bootstrap_local_actions
 theme: rabbits_bootstrap
 region: header
-weight: 20
+weight: -5
 provider: null
 plugin: local_actions_block
 settings:

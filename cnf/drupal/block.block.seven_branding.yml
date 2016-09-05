@@ -1,4 +1,4 @@
-uuid: 2fdaadb2-3e0c-4924-8906-6b848ceb8418
+uuid: baadfb5a-ba52-4a56-8b00-a284a43f58a4
 langcode: en
 status: true
 dependencies:
@@ -6,8 +6,6 @@ dependencies:
     - system
   theme:
     - seven
-_core:
-  default_config_hash: Cy3vkpYrD1O5JG-BeEnokF0bByHYDEa8CBfWivB4_SQ
 id: seven_branding
 theme: seven
 region: header
@@ -21,5 +19,5 @@ settings:
   label_display: '0'
   use_site_logo: true
   use_site_name: true
-  use_site_slogan: false
+  use_site_slogan: true
 visibility: {  }

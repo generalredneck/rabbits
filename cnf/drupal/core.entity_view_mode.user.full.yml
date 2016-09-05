@@ -1,11 +1,9 @@
-uuid: fedeba12-321f-49e0-b109-9e1f6d48be06
+uuid: c6047fe3-5c8a-40c7-a100-cbe4b287e19b
 langcode: en
 status: false
 dependencies:
   module:
     - user
-_core:
-  default_config_hash: mQIF_foYjmnVSr9MpcD4CTaJE_FpO1AyDd_DskztGhM
 id: user.full
 label: 'User account'
 targetEntityType: user

@@ -1,0 +1,22 @@
+uuid: 2dc6adea-1e03-4695-884a-74cede9245c5
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+_core:
+  default_config_hash: arsIXkTD59GKKDbmiflLMsJ8jsAwvZ98xN4DyAO78EQ
+id: node.field_ear_type
+field_name: field_ear_type
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,4 +1,4 @@
-uuid: 7b19fac0-3604-466b-8b00-eb7df8f5b34f
+uuid: 9de479a5-c77d-43a3-ba29-c57aad5cd94e
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ _core:
 id: rabbits_bootstrap_breadcrumbs
 theme: rabbits_bootstrap
 region: header
-weight: -100
+weight: -5
 provider: null
 plugin: system_breadcrumb_block
 settings:

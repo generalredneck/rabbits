@@ -1,0 +1,40 @@
+uuid: b3abc0c9-c7ee-4993-9c19-2553c9eb0ec8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_breed_image
+    - taxonomy.vocabulary.breeds
+  module:
+    - image
+_core:
+  default_config_hash: bOFa0f6iNXTH7noC4S9sd1rT3Ot_afBZngYFCUcJKLs
+id: taxonomy_term.breeds.field_breed_image
+field_name: field_breed_image
+entity_type: taxonomy_term
+bundle: breeds
+label: image
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: breeds
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

@@ -1,0 +1,40 @@
+uuid: 69994c7e-d2d9-4a80-9100-a1b8b0da1647
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_image
+    - node.type.rabbit
+  module:
+    - image
+_core:
+  default_config_hash: 9M68QPQ-X97dFse5HpT7agARuhb5FGJQgCZP4lw1dHA
+id: node.rabbit.field_image
+field_name: field_image
+entity_type: node
+bundle: rabbit
+label: Image
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: rabbits
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: '2 MB'
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: false
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

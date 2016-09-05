@@ -1,0 +1,137 @@
+uuid: 4dd899b3-ffaa-4326-9800-b48667394e70
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.rabbit.body
+    - field.field.node.rabbit.field_breed
+    - field.field.node.rabbit.field_dam
+    - field.field.node.rabbit.field_date_birth
+    - field.field.node.rabbit.field_date_death
+    - field.field.node.rabbit.field_ear_tattoo_number
+    - field.field.node.rabbit.field_ear_type
+    - field.field.node.rabbit.field_eye_color
+    - field.field.node.rabbit.field_fur_color
+    - field.field.node.rabbit.field_fur_markings
+    - field.field.node.rabbit.field_fur_type
+    - field.field.node.rabbit.field_gender
+    - field.field.node.rabbit.field_image
+    - field.field.node.rabbit.field_sire
+    - node.type.rabbit
+  module:
+    - datetime
+    - image
+    - options
+    - text
+    - user
+_core:
+  default_config_hash: pWip62-NMF8mMml_5hlbbjwF96AXBTubxq7b2tjEndw
+id: node.rabbit.default
+targetEntityType: node
+bundle: rabbit
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+  field_breed:
+    weight: 6
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_dam:
+    weight: 3
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_date_birth:
+    weight: 4
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+  field_date_death:
+    weight: 5
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+  field_ear_tattoo_number:
+    weight: 13
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_ear_type:
+    weight: 7
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_eye_color:
+    weight: 8
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_fur_color:
+    weight: 9
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_fur_markings:
+    weight: 10
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_fur_type:
+    weight: 11
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_gender:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+  field_image:
+    weight: 12
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_sire:
+    weight: 2
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  links:
+    weight: 14
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,32 @@
+uuid: c6628808-9209-4cec-b300-bcf52044076c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+_core:
+  default_config_hash: Ibu1PJAFXi6jYbiHkCCTOgtqzagg3iFwtJHmrtH1Uzk
+id: node.field_gender
+field_name: field_gender
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Unknown
+      label: Unknown
+    -
+      value: Male
+      label: Male
+    -
+      value: Female
+      label: Female
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

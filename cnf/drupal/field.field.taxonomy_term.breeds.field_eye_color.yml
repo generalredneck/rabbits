@@ -1,0 +1,29 @@
+uuid: e4b43874-44f7-4a0e-af00-c1e42b869b76
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_eye_color
+    - taxonomy.vocabulary.breeds
+    - taxonomy.vocabulary.eye_color
+_core:
+  default_config_hash: vFV8xZdqo2-JY_QhyEKib86gUEjA45Ka7T97qdqcWVs
+id: taxonomy_term.breeds.field_eye_color
+field_name: field_eye_color
+entity_type: taxonomy_term
+bundle: breeds
+label: 'Eye Color'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      eye_color: eye_color
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

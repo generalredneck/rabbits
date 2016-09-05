@@ -1,4 +1,4 @@
-uuid: fad781d5-fb2b-45d7-bb00-e26d804ff15a
+uuid: a1cfd719-4ccc-4dd8-b9a6-788e0bf2df02
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ _core:
 id: rabbits_bootstrap_messages
 theme: rabbits_bootstrap
 region: header
-weight: -50
+weight: -5
 provider: null
 plugin: system_messages_block
 settings:

@@ -1,0 +1,12 @@
+uuid: 580429e2-a0f3-4480-b800-009fa1e27e29
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: 2eOb6mPw8r52XScu93XXhOEVPL9ko_7RxBT3pn-JeXg
+id: node.pedigree
+label: Pedigree
+targetEntityType: node
+cache: true
